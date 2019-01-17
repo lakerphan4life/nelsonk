@@ -1,0 +1,15 @@
+#banner.major {
+
+	@include vendor('background-image', 'url("../images/colorfuldiagram1600x939.png")');
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+	&:after {
+		background: linear-gradient(to right, rgba(9,27,59,0.75) 65%, rgba(0,0,0,0));
+		
+	}
+}

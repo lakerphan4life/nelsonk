@@ -11,10 +11,11 @@
 			font-size: 0.8em;
 			list-style: none;
 			padding-left: 0;
+			color: _palette(fg-blk);
 
 			li {
 				border-left: solid 1px _palette(border);
-				color: _palette(fg-light);
+				color: _palette(fg-blk);
 				display: inline-block;
 				line-height: 1;
 				margin-left: 1em;

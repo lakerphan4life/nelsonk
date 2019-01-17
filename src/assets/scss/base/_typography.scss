@@ -171,3 +171,58 @@
 	.align-right {
 		text-align: right;
 	}
+
+
+	.h1 {
+		font-size: 2.5em;
+	}
+
+	.h2 {
+		font-size: 1.75em;
+	}
+
+	.h3 {
+		font-size: 1.35em;
+	}
+
+	.h4 {
+		font-size: 1.1em;
+	}
+
+	.h5 {
+		font-size: 0.9em;
+	}
+
+	.h6 {
+		font-size: 0.7em;
+	}
+
+	@include breakpoint(small) {
+		.h1 {
+			font-size: 2em;
+		}
+
+		.h2 {
+			font-size: 1.5em;
+		}
+
+		.h3 {
+			font-size: 1.25em;
+		}
+	}
+
+	.text-black {
+		color: #000000 !important;
+
+		&:after {
+			background: #000 !important;
+		}
+	}
+
+	.text-white {
+		color: #ffffff !important;
+		
+		&:after {
+			background: #fff !important;
+		}
+	}

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Forty V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Forty by HTML5 UP"
+    title: "Nelson K Enterprise | IT Management",
+    author: "Iman Hamidi",
+    description: "Nelson K Enterprise is the premier IT Management firm"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -19,6 +19,34 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    // {
+    //   resolve: 'gatsby-plugin-robots-txt',
+    //   options: {
+    //     host: 'https://www.nelsonkenterprise.com',
+    //     sitemap: 'https://www.nelsonkenterprise.com/sitemap.xml',
+    //     policy: [{ userAgent: '*', allow: '/' }]
+    //   }
+    // },
+    // {
+    //   resolve: `gatsby-plugin-canonical-urls`,
+    //   options: {
+    //     siteUrl: `https://www.example.com`,
+    //   },
+    // },
+    // {
+    //   resolve: `gatsby-plugin-facebook-pixel`,
+    //   options: {
+    //     pixelId: 'pixel id here',
+    //   },
+    // },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Lato', 'Raleway']
+        }
+      }
+    }
   ],
 }
