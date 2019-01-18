@@ -1,0 +1,52 @@
+// THIRDS GRID
+
+.grid {
+	display: grid;
+	position: relative;
+}
+
+.thirds{
+	grid-template-columns: 1fr 1fr 1fr; 
+	align-items: center;
+	justify-items: center;
+	grid-gap: 2rem;
+
+	@include breakpoint(medium) {
+		grid-template-columns: 1fr 1fr; 
+		grid-gap: 1rem;
+	}
+
+	@include breakpoint(small) {
+		grid-template-columns: 1fr; 
+	}
+
+}
+
+#services-section.three-col {
+	background: #fafafa;
+	border: 0;
+	padding: 5rem 0;
+
+
+	& .grid .grid-item {
+		text-align: center;
+		padding: 4rem 2rem;
+		background: #fff;
+		border: 1px solid #ddd;
+		color: #000 !important;
+		box-shadow: 0 0 50px rgba(0,0,0,0.1);
+		
+		
+
+		& h2 {
+			color: #000;
+			margin: 1rem 0;
+		}
+
+		& p {
+			color: #000;
+			margin: 1rem 0;
+		}
+	}
+
+}

@@ -3,13 +3,11 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import ManagedServicesBanner from '../components/ManagedServicesBanner'
+import ThreeColumn from '../components/ThreeColumn'
 
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
+
 import pic01 from '../assets/images/servers1760x990.png'
-import pic02 from '../assets/images/medical-1600x697.png'
-import pic03 from '../assets/images/vector.png'
+
 
 const ManagedServices = (props) => (
     <Layout>
@@ -21,14 +19,18 @@ const ManagedServices = (props) => (
         <ManagedServicesBanner />
 
         <div id="main">
-            <section id="one" style={{ background: `#ffffff`, color: `#000000`}}>
+            {/* <section id="one" style={{ background: `#ffffff`, color: `#000000` , border: `0`}}>
                 <div className="inner">
                     <header className="major">
                         <h2 className="text-black">Services that can accomodate all your needs</h2>
                     </header>
                     <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
                 </div>
-            </section>
+            </section> */}
+
+            <ThreeColumn />
+
+
             <section id="two" className="spotlights">
                 <section>
                     <Link to="#" className="image">
