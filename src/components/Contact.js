@@ -18,8 +18,8 @@ const Contact = (props) => (
                         <textarea name="message" id="message" rows="6"></textarea>
                     </div>
                     <ul className="actions">
-                        <li><input type="submit" value="Send Message" className="special" /></li>
-                        <li><input type="reset" value="Clear" /></li>
+                        <li><input type="submit" value="Send Message" className="special" style={{ border: `2px solid rgb(0, 0, 0)` }} /></li>
+                        {/* <li><input type="reset" value="Clear" className="special" /></li> */}
                     </ul>
                 </form>
             </section>
@@ -28,17 +28,20 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
                         <h3>Email</h3>
-                        <a href="#">information@untitled.tld</a>
+                        {/* <p><span>Sales: </span><br /><a href="mailto:Sales@nelsonkenterprise.com">Sales@nelsonkenterprise.com</a></p> */}
+                        <p><a href="mailto:Support@nelsonkenterprise.com">Support@nelsonkenterprise.com</a></p>
+                        {/* <span>Client Relations: </span><br /><a href="mailto:client-relations@nelsonkenterprise.com">client-relations@nelsonkenterprise.com</a><br /> */}
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-phone"></span>
                         <h3>Phone</h3>
-                        <span>(000) 000-0000 x12387</span>
+                        <span>Main: </span><a href="tel:18002037719">800.203.7719</a><br/>
+                        <span>Cell: </span><a href="tel:14254225348">425.422.5348</a>
                     </div>
                 </section>
-                <section>
+                {/* <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
                         <h3>Address</h3>
@@ -46,7 +49,7 @@ const Contact = (props) => (
                         Nashville, TN 00000<br />
                         United States of America</span>
                     </div>
-                </section>
+                </section> */}
             </section>
         </div>
     </section>

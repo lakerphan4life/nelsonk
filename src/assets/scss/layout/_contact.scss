@@ -9,10 +9,13 @@
 	#contact {
 		border-bottom: solid 1px _palette(border);
 		overflow-x: hidden;
+		background: _palette(fg);
+		color: _palette(fg-blk);
 
 		> .inner {
 			@include vendor('display', 'flex');
 			padding: 0 !important;
+			
 
 			> :nth-child(2n - 1) {
 				@include padding(4em, 0, (0, 3em, 0, 0));

@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import HomeBanner from '../components/HomeBanner'
+import CTABanner from '../components/CTABanner'
 
 import pic01 from '../assets/images/servers1760x990.png'
 import pic02 from '../assets/images/medical-1600x697.png'
@@ -54,7 +55,7 @@ class HomeIndex extends React.Component {
                                 <h2>Hardware Solutions</h2>
                                 <p>Let our team get you the best hardware available today</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/managed-services" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
@@ -63,7 +64,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/managed-services" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
+                        <article style={{backgroundImage: `url(${pic03})`, backgroundPosition: `right`}}>
                             <header className="major">
                                 <h3>About Us</h3>
                                 <p>See how Nelson K Enterprise rose to become a leading MSP provider</p>
@@ -71,10 +72,10 @@ class HomeIndex extends React.Component {
                             <Link to="/managed-services" className="link primary"></Link>
                         </article>
                     </section>
-                    <section id="two">
+                    <section id="two" style={{backgroundColor: `#fff`, color: `#000000`}}>
                         <div className="inner">
                             <header className="major">
-                                <h2>Massa libero</h2>
+                                <h2 className='text-black'>Massa libero</h2>
                             </header>
                             <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
                             <ul className="actions">
@@ -84,7 +85,11 @@ class HomeIndex extends React.Component {
                     </section>
                 </div>
 
+
+                <CTABanner />
+
             </Layout>
+            
         )
     }
 }

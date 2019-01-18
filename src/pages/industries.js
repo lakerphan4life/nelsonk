@@ -2,86 +2,83 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import ManagedServicesBanner from '../components/ManagedServicesBanner'
+import IndustriesBanner from '../components/IndustriesBanner'
 
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
-import pic01 from '../assets/images/servers1760x990.png'
-import pic02 from '../assets/images/medical-1600x697.png'
-import pic03 from '../assets/images/vector.png'
 
-const ManagedServices = (props) => (
+const Industries = (props) => (
     <Layout>
         <Helmet>
-            <title>Managed Services - Nelson K Enterprise</title>
-            <meta name="description" content="Managed Services offered by Nelson K Enterprise include I.T. Consulting, Infratructure, Support &amp; Managed Services, Automation Services, and more" />
+            <title>Industries We Serve - Nelson K Enterprise</title>
+            <meta name="description" content="Industries served by Nelson K Enterprise" />
         </Helmet>
 
-        <ManagedServicesBanner />
+        <IndustriesBanner />
 
-        <div id="main">
+        {/* <div id="main">
             <section id="one" style={{ background: `#ffffff`, color: `#000000`}}>
                 <div className="inner">
                     <header className="major">
-                        <h2 className="text-black">Services that can accomodate all your needs</h2>
+                        <h2 className="text-black">Sed amet aliquam</h2>
                     </header>
                     <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="#" className="image">
-                        <img src={pic01} alt="" />
+                    <Link to="/generic" className="image">
+                        <img src={pic08} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>I.T. Consulting Services</h3>
+                                <h3>Orci maecenas</h3>
                             </header>
-                            <p>Add description for IT Services here</p>
+                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
                             <ul className="actions">
-                                <li><Link to="#" className="button">Learn more</Link></li>
+                                <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <Link to="#" className="image">
-                        <img src={pic01} alt="" />
+                    <Link to="/generic" className="image">
+                        <img src={pic09} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Infrastructure</h3>
+                                <h3>Rhoncus magna</h3>
                             </header>
-                            <p>Add description for Infrastructure</p>
+                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
                             <ul className="actions">
-                                <li><Link to="#" className="button">Learn more</Link></li>
+                                <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <Link to="#" className="image">
-                        <img src={pic01} alt="" />
+                    <Link to="/generic" className="image">
+                        <img src={pic10} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Support and Managed Services</h3>
+                                <h3>Sed nunc ligula</h3>
                             </header>
-                            <p>Support and Managed Services</p>
+                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
                             <ul className="actions">
-                                <li><Link to="#" className="button">Learn more</Link></li>
+                                <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
                         </div>
                     </div>
                 </section>
             </section>
-        </div>
+        </div> */}
 
     </Layout>
 )
 
-export default ManagedServices
+export default Industries

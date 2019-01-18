@@ -1,0 +1,139 @@
+///
+/// Forty by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* CTA BANNER */
+
+	#cta {
+		@include vendor('align-items', 'center');
+		@include vendor('background-image', 'url("../images/vector.png")');
+		@include vendor('display', 'flex');
+		height: 15vh;
+		max-height: 25em;
+		min-height: 15em;
+		position: relative;
+		padding: 2em 1em;
+		background-attachment: fixed;
+		background-position: right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-bottom: 0 !important;
+		cursor: default;
+		
+
+		&:after {
+			@include vendor('transition', 'opacity #{_duration(banner)} ease');
+			@include vendor('transition-delay', '0.75s');
+			@include vendor('pointer-events', 'none');
+			background-color: _palette(highlight);
+			content: '';
+			display: block;
+			height: 100%;
+			left: 0;
+			opacity: 0.77;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: 1;
+		}
+
+		.cta-heading {
+			font-size: 2.5em;
+			font-weight: 700;
+		}
+
+		> .inner {
+			@include vendor('transition', (
+				'opacity 1.5s ease',
+				'transform 0.5s ease-out',
+				'filter 0.5s ease',
+				'-webkit-filter 0.5s ease'
+			));
+			padding: 0 !important;
+			position: relative;
+			z-index: 2;
+			color: #000;
+
+			.image {
+				display: none;
+			}
+
+			header {
+				width: auto;
+
+				> :first-child {
+					width: auto;
+
+					&:after {
+						max-width: 100%;
+					}
+				}
+			}
+
+			.content {
+				@include vendor('display', 'flex');
+				@include vendor('align-items', 'center');
+				margin: 0 0 _size(element-margin) 0;
+
+				> * {
+					margin-left: 1.5em;
+					margin-bottom: 0;
+				}
+
+				> :first-child {
+					margin-left: 0;
+				}
+
+				p {
+					font-size: 0.7em;
+					font-weight: _font(weight-bold);
+					letter-spacing: _font(letter-spacing-alt);
+					text-transform: uppercase;
+				}
+			}
+		}
+
+		@include breakpoint(large) {
+			background-attachment: scroll;
+			background-position: right;
+		}
+
+		@include breakpoint(small) {
+			height: auto;
+			margin-bottom: -2.75em;
+			max-height: none;
+			min-height: 0;
+			top: -2.75em;
+
+			h1 {
+				font-size: 2em;
+			}
+
+			> .inner {
+				.content {
+					display: block;
+
+					> * {
+						margin-left: 0;
+					}
+				}
+			}
+
+
+		}
+
+		@include breakpoint(xsmall) {
+
+			> .inner {
+				.content {
+					p {
+						br {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+	}
