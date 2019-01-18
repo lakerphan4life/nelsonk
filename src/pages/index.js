@@ -3,14 +3,13 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import HomeBanner from '../components/HomeBanner'
-import CTABanner from '../components/CTABanner'
+import HomeThreeColumn from '../components/HomeThreeColumn'
 
 import pic01 from '../assets/images/servers1760x990.png'
 import pic02 from '../assets/images/medical-1600x697.png'
 import pic03 from '../assets/images/vector.png'
 import pic04 from '../assets/images/managed-banner.png'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
+
 
 
 
@@ -30,7 +29,7 @@ class HomeIndex extends React.Component {
                 <HomeBanner />
 
                 <div id="main">
-                    <section id="one" style={{ background: `#ffffff`, color: `#000000`}}>
+                    {/* <section id="one" style={{ background: `#ffffff`, color: `#000000`}}>
                         <div className="inner">
                             <header className="major">
                                 <h2 className="h2 text-black">Growth, profitability, and increased efficacy</h2>
@@ -40,7 +39,9 @@ class HomeIndex extends React.Component {
                                 <li><Link to="/managed-services" className="button dark-btn">Get Started</Link></li>
                             </ul>
                         </div>
-                    </section>
+                    </section> */}
+
+                    <HomeThreeColumn />
 
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic04})`, backgroundPosition: `right`}}>

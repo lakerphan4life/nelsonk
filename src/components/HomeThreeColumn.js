@@ -1,12 +1,12 @@
 import React from 'react'
 
-const ThreeColumn = (props) => (
-    <section id="services-section" className="flex three-col">
+const HomeThreeColumn = (props) => (
+    <section id="home-section" className="flex three-col">
                 <div className="inner">
                     <header className="major">
-                        <h2 className="text-black">Services that can accomodate all your needs</h2>
+                        <h2 className="text-black">Growth, profitability, and increased efficacy</h2>
                     </header>
-                    <p className="text-black">Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+                    <p className="text-black">Nelson K Enterprise is the premier MSP provider in the Northwest. Over the years, Nelson K Enterprise has become a leader in the IT and MSP community, developing an ironclad process to maximize each client's potential for savings. Our first step is to evaluate your current infrastructure and find areas that will enable us to have the greatest impact on your growth, profitability, and efficacy.</p>
                 </div>
         <div className="inner grid thirds">
             <div className="grid-item">
@@ -37,4 +37,4 @@ const ThreeColumn = (props) => (
     </section>
 )
 
-export default ThreeColumn
+export default HomeThreeColumn
