@@ -8,7 +8,7 @@ import CTABanner from '../components/CTABanner'
 import pic01 from '../assets/images/servers1760x990.png'
 import pic02 from '../assets/images/medical-1600x697.png'
 import pic03 from '../assets/images/vector.png'
-import pic04 from '../assets/images/pic04.jpg'
+import pic04 from '../assets/images/managed-banner.png'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
 
@@ -43,7 +43,7 @@ class HomeIndex extends React.Component {
                     </section>
 
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic03})`, backgroundPosition: `right`}}>
+                        <article style={{backgroundImage: `url(${pic04})`, backgroundPosition: `right`}}>
                             <header className="major">
                                 <h2>Managed Services</h2>
                                 <p>Learn about all of our services &amp; solutions</p>
@@ -72,21 +72,9 @@ class HomeIndex extends React.Component {
                             <Link to="/managed-services" className="link primary"></Link>
                         </article>
                     </section>
-                    <section id="two" style={{backgroundColor: `#fff`, color: `#000000`}}>
-                        <div className="inner">
-                            <header className="major">
-                                <h2 className='text-black'>Massa libero</h2>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/managed-services" className="button next">Get Started</Link></li>
-                            </ul>
-                        </div>
-                    </section>
+
                 </div>
 
-
-                <CTABanner />
 
             </Layout>
             
