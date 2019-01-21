@@ -14,6 +14,7 @@
 	}
 
 	@include breakpoint(small) {
+		@include vendor('background-image', 'url("../images/colorfuldiagram750x900.png")');
 		background-attachment: none;
 		background-position: left;
 		background-repeat: no-repeat;
