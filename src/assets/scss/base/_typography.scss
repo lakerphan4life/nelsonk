@@ -11,8 +11,8 @@
 		font-family: _font(family);
 		font-size: 17pt;
 		font-weight: _font(weight);
-		letter-spacing: _font(letter-spacing);
-		line-height: 1.65;
+		// letter-spacing: _font(letter-spacing);
+		line-height: 1.5;
 
 		@include breakpoint(xlarge) {
 			font-size: 14pt;
@@ -64,7 +64,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		color: _palette(fg-bold);
 		font-weight: _font(weight-bold);
-		line-height: 1.65;
+		line-height: 1.5;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
 
 		a {
@@ -227,4 +227,17 @@
 		&:after {
 			background: #fff !important;
 		}
+	}
+
+	.lato-thin {
+		font-family: 'Lato', Arial, Helvetica, sans-serif !important;
+		font-weight: 200 !important;
+	}
+
+	.uppercase {
+		text-transform: uppercase !important;
+	}
+
+	.text-center {
+		text-align: center !important;
 	}

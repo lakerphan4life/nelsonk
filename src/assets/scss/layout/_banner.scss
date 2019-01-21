@@ -23,6 +23,7 @@
 		min-height: 22em;
 		position: relative;
 		top: -3.25em;
+		box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 
 		&:after {
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
