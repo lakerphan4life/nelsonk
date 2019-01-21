@@ -16,8 +16,14 @@
 	@include breakpoint(small) {
 		@include vendor('background-image', 'url("../images/colorfuldiagram750x900.png")');
 		background-attachment: none;
-		background-position: left;
+		background-position: center;
 		background-repeat: no-repeat;
-		background-size: cover;
+	}
+
+	@include breakpoint(xsmall) {
+		@include vendor('background-image', 'url("../images/colorfuldiagram480x700.png")');
+		background-attachment: none;
+		background-position: center;
+		background-repeat: no-repeat;
 	}
 }
