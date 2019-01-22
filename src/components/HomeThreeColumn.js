@@ -17,29 +17,29 @@ const HomeThreeColumn = (props) => (
         <div className="inner grid thirds">
             <div className="grid-item">
                 <img src={security} style={{maxWidth: `85px`, margin: `auto`}} />
-                <h2>Security</h2>
+                <h2 className='uppercase raleway-thick'>Security</h2>
 				<p>Tailored solutions to help your business succeed</p>
             </div>
 			<div className="grid-item">
                 <img src={goals} style={{maxWidth: `85px`, margin: `auto`}} />
-                <h2>Targetu</h2>
+                <h2 className='uppercase raleway-thick'>Targetu</h2>
 				<p>Tailored solutions to help your business succeed</p>
             </div>
 			<div className="grid-item">
                 <img src={savings} style={{maxWidth: `85px`, margin: `auto`}} />
-                <h2>Savings</h2>
+                <h2 className='uppercase raleway-thick'>Savings</h2>
 				<p>Tailored solutions to help your business succeed</p>
             </div>
 			<div className="grid-item">
-                <h2>I.T. Consulting</h2>
+                <h2 className='uppercase raleway-thick'>I.T. Consulting</h2>
 				<p>Tailored solutions to help your business succeed</p>
             </div>
 			<div className="grid-item">
-                <h2>Managed Services</h2>
+                <h2 className='uppercase raleway-thick'>Managed Services</h2>
 				<p>Tailored solutions to help your business succeed</p>
             </div>
 			<div className="grid-item">
-                <h2>Infrastructure</h2>
+                <h2 className='uppercase raleway-thick'>Infrastructure</h2>
 				<p>Tailored solutions to help your business succeed</p>
             </div>
         </div>
