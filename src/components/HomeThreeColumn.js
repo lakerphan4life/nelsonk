@@ -1,8 +1,12 @@
 import React from 'react'
 
-import goals from '../assets/images/goals.png'
-import savings from '../assets/images/savings.png'
-import security from '../assets/images/cloud-security.png'
+// import goals from '../assets/images/goals.png'
+import security from '../assets/images/cloud-security.svg'
+import server from '../assets/images/server.svg'
+import automation from '../assets/images/automation.svg'
+import documentation from '../assets/images/documentation.svg'
+import support from '../assets/images/support.svg'
+import it from '../assets/images/itconsult.svg'
 
 
 
@@ -16,31 +20,34 @@ const HomeThreeColumn = (props) => (
                 </div>
         <div className="inner grid thirds">
             <div className="grid-item">
-                <img src={security} style={{maxWidth: `85px`, margin: `auto`}} />
-                <h2 className='uppercase raleway-thick'>Security</h2>
+                <img src={automation} style={{maxHeight: `85px`, margin: `auto`}} alt='nelson k enterprise automation' />
+                <h2 className='raleway-thick'>Automation</h2>
+				<p>Automation solutions to streamline your business</p>
+            </div>
+            <div className="grid-item">
+            <img src={documentation} style={{maxHeight: `85px`, margin: `auto`}} alt='nelson k enterprise documentation' />
+                <h2 className='raleway-thick'>Documentation</h2>
 				<p>Tailored solutions to help your business succeed</p>
             </div>
 			<div className="grid-item">
-                <img src={goals} style={{maxWidth: `85px`, margin: `auto`}} />
-                <h2 className='uppercase raleway-thick'>Targetu</h2>
-				<p>Tailored solutions to help your business succeed</p>
+                <img src={server} style={{maxHeight: `85px`, margin: `auto`}} alt='nelson k enterprise infrastructure' />
+                <h2 className='raleway-thick'>Infrastructure</h2>
+				<p>I.T. Infrastructure, designed with the future in mind</p>
+            </div>
+            <div className="grid-item">
+                <img src={it} style={{maxHeight: `85px`, margin: `auto`}} alt='nelson k enterprise it consulting' />
+                <h2 className='raleway-thick'>I.T. Consulting</h2>
+				<p>I.T. solutions customized for your business</p>
             </div>
 			<div className="grid-item">
-                <img src={savings} style={{maxWidth: `85px`, margin: `auto`}} />
-                <h2 className='uppercase raleway-thick'>Savings</h2>
-				<p>Tailored solutions to help your business succeed</p>
+                <img src={security} style={{maxHeight: `85px`, margin: `auto`}} alt='nelson k enterprise it managed services' />
+                <h2 className='raleway-thick'>Security</h2>
+				<p>Security protocols that mitigate breaches and deliver peace of mind</p>
             </div>
 			<div className="grid-item">
-                <h2 className='uppercase raleway-thick'>I.T. Consulting</h2>
-				<p>Tailored solutions to help your business succeed</p>
-            </div>
-			<div className="grid-item">
-                <h2 className='uppercase raleway-thick'>Managed Services</h2>
-				<p>Tailored solutions to help your business succeed</p>
-            </div>
-			<div className="grid-item">
-                <h2 className='uppercase raleway-thick'>Infrastructure</h2>
-				<p>Tailored solutions to help your business succeed</p>
+                <img src={support} style={{maxHeight: `85px`, margin: `auto`}} alt='nelson k enterprise it security' />
+                <h2 className='raleway-thick'>Support</h2>
+				<p>Support and managed services for your I.T. department</p>
             </div>
         </div>
     </section>
