@@ -235,24 +235,18 @@
 	}
 	.lato-thick {
 		font-family: 'Lato', Arial, Helvetica, sans-serif !important;
-		font-weight: 500 !important;
+		font-weight: _font(weight-bold);
 	}
-	.lato-thicker {
-		font-family: 'Lato', Arial, Helvetica, sans-serif !important;
-		font-weight: 700 !important;
-	}
+
 	.raleway-thin {
 		font-family: 'Raleway', Arial, Helvetica, sans-serif !important;
 		font-weight: 300 !important;
 	}
 	.raleway-thick {
 		font-family: 'Raleway', Arial, Helvetica, sans-serif !important;
-		font-weight: 500 !important;
+		font-weight: _font(weight-bold);
 	}
-	.raleway-thicker {
-		font-family: 'Raleway', Arial, Helvetica, sans-serif !important;
-		font-weight: 700 !important;
-	}
+
 
 	.uppercase {
 		text-transform: uppercase !important;
