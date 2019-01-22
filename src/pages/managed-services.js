@@ -19,14 +19,6 @@ const ManagedServices = (props) => (
         <ManagedServicesBanner />
 
         <div id="main">
-            {/* <section id="one" style={{ background: `#ffffff`, color: `#000000` , border: `0`}}>
-                <div className="inner">
-                    <header className="major">
-                        <h2 className="text-black">Services that can accomodate all your needs</h2>
-                    </header>
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
-                </div>
-            </section> */}
 
             <ThreeColumn />
 
