@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import ManagedServicesBanner from '../components/ManagedServicesBanner'
-import ThreeColumn from '../components/ThreeColumn'
+import ServicesThirds from '../components/ServicesThirds'
 
 
 import pic01 from '../assets/images/servers1760x990.png'
@@ -20,7 +20,7 @@ const ManagedServices = (props) => (
 
         <div id="main">
 
-            <ThreeColumn />
+            <ServicesThirds />
 
 
             <section id="two" className="spotlights">
@@ -28,50 +28,19 @@ const ManagedServices = (props) => (
                     <Link to="#" className="image">
                         <img src={pic01} alt="" />
                     </Link>
-                    <div className="content">
+                    <div className="content bg-white">
                         <div className="inner">
                             <header className="major">
                                 <h3>I.T. Consulting Services</h3>
                             </header>
                             <p>Add description for IT Services here</p>
                             <ul className="actions">
-                                <li><Link to="#" className="button">Learn more</Link></li>
+                                <li><Link to="#" className="button dark-btn">Learn more</Link></li>
                             </ul>
                         </div>
                     </div>
                 </section>
-                <section>
-                    <Link to="#" className="image">
-                        <img src={pic01} alt="" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Infrastructure</h3>
-                            </header>
-                            <p>Add description for Infrastructure</p>
-                            <ul className="actions">
-                                <li><Link to="#" className="button">Learn more</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <Link to="#" className="image">
-                        <img src={pic01} alt="" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Support and Managed Services</h3>
-                            </header>
-                            <p>Support and Managed Services</p>
-                            <ul className="actions">
-                                <li><Link to="#" className="button">Learn more</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
+                
             </section>
         </div>
 

@@ -57,7 +57,7 @@
 
 	p {
 		margin: 0 0 _size(element-margin) 0;
-		font-family: 'Lato', Arial, Helvetica, sans-serif;
+		font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 		font-weight: 300;
 	}
 
@@ -229,23 +229,23 @@
 		}
 	}
 
-	.lato-thin {
-		font-family: 'Lato', Arial, Helvetica, sans-serif !important;
-		font-weight: 300 !important;
+	.open-thin {
+		font-family: 'open sans', Arial, Helvetica, sans-serif !important;
+		font-weight: 400 !important;
 	}
-	.lato-thick {
-		font-family: 'Lato', Arial, Helvetica, sans-serif !important;
+	.open-thick {
+		font-family: 'open sans', Arial, Helvetica, sans-serif !important;
 		font-weight: _font(weight-bold);
 		letter-spacing: -1px !important;
 	}
 
-	.raleway-thin {
-		font-family: 'Raleway', Arial, Helvetica, sans-serif !important;
+	.montserrat-thin {
+		font-family: 'montserrat', Arial, Helvetica, sans-serif !important;
 		font-weight: 300 !important;
 		letter-spacing: -1px !important;
 	}
-	.raleway-thick {
-		font-family: 'Raleway', Arial, Helvetica, sans-serif !important;
+	.montserrat-thick {
+		font-family: 'montserrat', Arial, Helvetica, sans-serif !important;
 		font-weight: _font(weight-bold);
 	}
 
@@ -256,4 +256,12 @@
 
 	.text-center {
 		text-align: center !important;
+	}
+
+	.margin-auto {
+		margin: auto !important;
+	}
+
+	.margin-zero {
+		margin: 0 !important;
 	}
