@@ -18,7 +18,7 @@ const Contact = (props) => (
                         <textarea name="message" id="message" rows="6"></textarea>
                     </div>
                     <ul className="actions">
-                        <li><input type="submit" value="Send Message" className="special" style={{ border: `2px solid rgb(0, 0, 0)` }} /></li>
+                        <li><input type="submit" value="Send Message" className="button dark-btn" /></li>
                         {/* <li><input type="reset" value="Clear" className="special" /></li> */}
                     </ul>
                 </form>
@@ -37,8 +37,8 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-phone"></span>
                         <h3>Phone</h3>
-                        <span>Main: </span><a href="tel:18002037719">800.203.7719</a><br/>
-                        <span>Cell: </span><a href="tel:14254225348">425.422.5348</a>
+                        <p><span>Main: </span><a href="tel:18002037719">800.203.7719</a><br />
+                        <span>Cell: </span><a href="tel:14254225348">425.422.5348</a></p>
                     </div>
                 </section>
                 {/* <section>

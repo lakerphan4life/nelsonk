@@ -3,7 +3,7 @@
 @import 'libs/mixins';
 @import 'libs/skel';
 @import '../css/font-awesome.min.css';
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500,700|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500,700|Open+Sans:300');
 
 @import "css-grid";
 
@@ -58,6 +58,7 @@
 	@import 'components/button';
 	@import 'components/tiles';
 	@import 'components/contact-method';
+	@import 'components/product';
 	@import 'components/spotlights';
 	@import 'components/thirds';
 	@import 'components/thinsection';

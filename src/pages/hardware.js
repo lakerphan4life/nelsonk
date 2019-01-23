@@ -1,12 +1,16 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import HardwareBanner from '../components/HardwareBanner'
+import HomeThinSection from '../components/HomeThinSection'
 
-// import pic08 from '../assets/images/pic08.jpg'
-// import pic09 from '../assets/images/pic09.jpg'
-// import pic10 from '../assets/images/pic10.jpg'
+// PRODUCTS
+import Optiplex3060 from '../components/products/Optiplex3060'
+import Optiplex3060Small from '../components/products/Optiplex3060Small'
+import T440 from '../components/products/T440'
+import R330 from '../components/products/R330'
+import C4140 from '../components/products/C4140'
+
 
 const Hardware = (props) => (
     <Layout>
@@ -17,66 +21,20 @@ const Hardware = (props) => (
 
         <HardwareBanner />
 
-        {/* <div id="main">
-            <section id="one" style={{ background: `#ffffff`, color: `#000000`}}>
-                <div className="inner">
-                    <header className="major">
-                        <h2 className="text-black">Sed amet aliquam</h2>
-                    </header>
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
-                </div>
+        <div id="main" style={{background: `#ffffff !important`}}>
+            <section id="" className="products">
+				
+                <Optiplex3060 />
+                <Optiplex3060Small />
+                <T440 />
+                <R330 />
+                <C4140 />
+
             </section>
-            <section id="two" className="spotlights">
-                <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic08} alt="" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Orci maecenas</h3>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic09} alt="" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Rhoncus magna</h3>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic10} alt="" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Sed nunc ligula</h3>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-            </section>
-        </div> */}
+
+			<HomeThinSection />
+        </div>
+        
 
     </Layout>
 )
