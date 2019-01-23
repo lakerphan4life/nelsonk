@@ -11,6 +11,10 @@
 	justify-items: center;
 	grid-gap: 3rem;
 
+	& a {
+		height: 100%;
+	}
+
 	@include breakpoint(medium) {
 		grid-template-columns: 1fr 1fr; 
 		grid-gap: 2rem;
@@ -39,6 +43,8 @@
 		@include vendor('transition', (
 			'box-shadow #{_duration(transition)} ease-in-out',
 		));
+		width: 100%;
+		height: 100%;
 		// cursor: pointer;
 
 		
@@ -82,4 +88,5 @@
 	margin: 0;
 	padding: 0;
 }
+
 

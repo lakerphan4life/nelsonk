@@ -14,25 +14,14 @@ const R330 = (props) => (
 				<header className="title">
 					<h2>PowerEdge R330 Rack Server</h2>
 				</header>
+				<h3 className="text-black">Powerful, versatile, and expandable</h3>
 				<p>
-					<ul>
-						<li>
-						Powerful, versatile, and expandable
-						</li>
+					Powerful and versatile 1-socket rack server for small and medium businesses (SMB) and remote office/branch office (ROBO)
 
-						<li>
-						Powerful and versatile 1-socket rack server for small and medium businesses (SMB) and remote office/branch office (ROBO)
-						</li>
-						
-						<li>
-						Form factor 1U rack server
-						</li>
-
-					</ul>
 				</p>
 				<ul className="actions">
 					<li><Link to="#" className="button dark-btn">REQUEST INFORMATION</Link></li>
-					<li><a target="_blank" href="https://www.dell.com/en-us/work/shop/povw/poweredge-t440" className="button special">MORE DETAILS</a></li>
+					<li><a target="_blank" href="https://www.dell.com/en-us/work/shop/povw/poweredge-r330" className="button special">MORE DETAILS</a></li>
 				</ul>
 			</div>
 		</div>

@@ -14,8 +14,18 @@ const Optiplex3060 = (props) => (
 				<header className="title">
 					<h2>Dell OptiPlex 3060 Micro</h2>
 				</header>
-				<p>The micro takes up less surface area while still maintaining all the reliability you've come to expect. Full-power features in a space-saving design, more workers choose the OptiPlex micro than ever before.</p>
-				<p>Intel Core™ i5-8500T (6 Cores/9MB/6T/up to 3.5GHz/35W); supports Windows 10/Linux</p>
+				<h3 className="text-black">Serious productivity. Space-saving design.</h3>
+				<p>The micro takes up less surface area while still maintaining all the reliability you've come to expect. Full-power features in a space-saving design, more workers choose the OptiPlex micro than ever before.<br /><br />
+					<ul>
+						
+						<li>
+						Intel Core™ i5-8500T (6 Cores/9MB/6T/up to 3.5GHz/35W); supports Windows 10/Linux						
+						</li>
+
+					</ul>
+					
+					
+				</p>
 				<ul className="actions">
 					<li><Link to="#" className="button dark-btn">REQUEST INFORMATION</Link></li>
 				</ul>

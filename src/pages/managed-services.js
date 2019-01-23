@@ -31,11 +31,11 @@ const ManagedServices = (props) => (
                     <div className="content bg-white">
                         <div className="inner">
                             <header className="major">
-                                <h3>I.T. Consulting Services</h3>
+                                <h3>Looking for hardware solutions?</h3>
                             </header>
-                            <p>Add description for IT Services here</p>
+                            <p>We are a specialized distributor of Dell products, with access to a vast network of hardware solutions for businesses of any size</p>
                             <ul className="actions">
-                                <li><Link to="#" className="button dark-btn">Learn more</Link></li>
+                                <li><Link to="hardware" className="button dark-btn">Hardware Solutions</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -43,6 +43,8 @@ const ManagedServices = (props) => (
                 
             </section>
         </div>
+
+        
 
     </Layout>
 )

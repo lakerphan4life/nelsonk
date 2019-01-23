@@ -14,16 +14,11 @@ const T440 = (props) => (
 				<header className="title">
 					<h2>PowerEdge T440 Tower Server</h2>
 				</header>
+				<h3 className="text-black">Powerful, expandable, and quiet</h3>
 				<p>
+				Drive a wide variety of office workloads with flexible performance and capacity in a worry-free infrastructure.<br /><br />
 					<ul>
-						<li>
-						Powerful, expandable and quiet
-						</li>
 
-						<li>
-						Drive a wide variety of office workloads with flexible performance and capacity in a worry-free infrastructure
-						</li>
-						
 						<li>
 						Up to two Intel® Xeon® Scalable processors, up to 14 cores per processor
 						</li>
