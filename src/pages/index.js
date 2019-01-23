@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import HomeBanner from '../components/HomeBanner'
 import HomeThreeColumn from '../components/HomeThreeColumn'
+import HomeThinSection from '../components/HomeThinSection'
 
 import pic01 from '../assets/images/servers1760x990.png'
 import pic02 from '../assets/images/medical-1600x697.png'
@@ -76,6 +77,7 @@ class HomeIndex extends React.Component {
 
                 </div>
 
+                <HomeThinSection />
 
             </Layout>
             

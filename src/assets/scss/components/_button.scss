@@ -127,6 +127,7 @@
 			background-color: _palette(dark-blue);
 			box-shadow: none;
 			color: _palette(white);
+			cursor: pointer !important;
 
 			&:hover, &:active {
 				background-color: _palette(highlight);
@@ -135,6 +136,22 @@
 
 			&:active {
 				background-color: desaturate(darken(_palette(highlight), 15), 5);
+			}
+		}
+
+		&.green-btn {
+			background-color: _palette(highlight);
+			box-shadow: none;
+			color: _palette(dark-blue);
+			cursor: pointer !important;
+
+			&:hover, &:active {
+				background-color: _palette(fg);
+				color: _palette(dark-blue) !important;
+			}
+
+			&:active {
+				background-color: desaturate(darken(_palette(dark-blue), 15), 5);
 			}
 		}
 

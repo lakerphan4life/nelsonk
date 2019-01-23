@@ -1,15 +1,49 @@
-// THIRDS GRID
+// thin home section GRID
 
-.grid {
-	display: grid;
-	position: relative;
-}
+	#homethinsection {
+		background: linear-gradient(to top, _palette(accent1), _palette(blue1));
+		@include vendor('align-items', 'center');
+		@include vendor('background-image', 'url("../images/bg-circuit.jpg")');
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-bottom: 0 !important;
+		cursor: default;
+		// height: 20vh;
+		// margin-bottom: -3.25em;
+		// max-height: 32em;
+		// min-height: 22em;
+		position: relative;
+		// top: -3.25em;
+		box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 
-.flex {
-	display: flex;
-	flex-wrap: wrap;
-	border-top: 0;
-	margin: 0;
-	padding: 0;
-}
+		&:after {
+			@include vendor('transition', 'opacity #{_duration(banner)} ease');
+			@include vendor('transition-delay', '0.75s');
+			@include vendor('pointer-events', 'none');
+			background-color: _palette(bg);
+			content: '';
+			display: block;
+			height: 100%;
+			left: 0;
+			opacity: 0.85;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: 1;
+		}
 
+		> .inner {
+			@include vendor('transition', (
+				'opacity 1.5s ease',
+				'transform 0.5s ease-out',
+				'filter 0.5s ease',
+				'-webkit-filter 0.5s ease'
+			));
+			padding: 4em 0 !important; 
+			position: relative;
+			z-index: 2;
+		}
+
+	}
