@@ -34,7 +34,7 @@
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0.65;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -111,6 +111,34 @@
 		&.style4 { &:after { background-color: _palette(accent4); } }
 		&.style5 { &:after { background-color: _palette(accent5); } }
 		&.style6 { &:after { background-color: _palette(accent6); } }
+		&.industry { 
+
+			&:after { 
+				background: linear-gradient(to right, rgba(255,255,255,1) 45%, rgba(255,255,255,0)); 
+			}
+			
+			& .inner {
+				& header {
+
+					&.major {
+						> :first-child { 
+							&:after {
+								background-color: _palette(bg);
+							}
+						}
+					}
+
+					
+					& h1 {
+						color: #000000;
+					}
+				}
+
+				& .content {
+					color: #000000;
+				}
+			}
+		}
 
 		.body.is-loading & {
 			&:after {
@@ -176,3 +204,5 @@
 			}
 		}
 	}
+
+

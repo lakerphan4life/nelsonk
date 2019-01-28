@@ -1,46 +1,46 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import DocumentationBanner from '../components/DocumentationBanner'
 import HomeThinSection from '../components/HomeThinSection'
 
 
-import optiplex from '../assets/images/desktop-optiplex-3060.jpeg'
-
 
 const Documentation = (props) => (
     <Layout>
         <Helmet>
-            <title>Documentation Services - Nelson K Enterprise</title>
+            <title>Documentation  &amp; Business Process Services - Nelson K Enterprise</title>
             <meta name="description" content="Documentation Services offered by Nelson K Enterprise" />
         </Helmet>
 
         <DocumentationBanner />
 
-        <div id="main">
-            <section id="two" className="spotlights">
-				<section>
-                    <Link to="#" className="image">
-                        <img src={optiplex} alt="" />
-                    </Link>
-                    <div className="content bg-white">
-                        <div className="inner">
-                            <header className="major">
-                                <h2>Dell OptiPlex 3060 Micro</h2>
-                            </header>
-                            <p>The micro takes up less surface area while still maintaining all the reliability you've come to expect. Full-power features in a space-saving design, more workers choose the OptiPlex micro than ever before.</p>
-                            <ul className="actions">
-                                <li><Link to="#" className="button dark-btn">REQUEST INFORMATION</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                
-            </section>
+        <div id="main" className="alt">
+            <section id="one">
+                <div className="inner">
+					<p className="text-center" style={{padding: `2em 0`}}>
+                    Increase time within your management team and availability though structured documentation across company roles and responsibilities.  Use restricted organization to allow others to implement some of the most important responsibilities and task that some of the highest paid employees always end up doing.  Bridging the gaps of continuity within an organization, we ensure to utilize a system that stores detailed workflows, policies, and processes to overcome lack of communication between teams and organizations.  This has a substantial impact on the relationships our client has with their clients, with is a critical path to accelerating growth.  Overall this provides the ability to keep key assets and processes in a single location.  Strict guidelines laid permit access to those who can edit, or view-only the documents, documenting everything worth doing.  This method has proven to eliminate the average of 20% of time that is wasted using a standard system that most companies currently use. 
 
-			<HomeThinSection />
+                    </p>
+
+					<h2>What to expect from our Documentation &amp; Business Process service</h2>
+                    <p>
+						<ul>
+
+                            <li>Documentation and logged events with resolutions</li>
+                            <li>Improve and reconstruct company documentation of policies and processes. </li>
+                            <li>Client portal and integrated ticketing system</li>
+                            <li>Complete network visibility to pinpoint areas of action</li>
+                            <li>System-wide network monitoring with intellectual alerting, including auto responses as well as auto resolutions. </li>
+                            <li>Policy Profiles – Simplify updates using standardized, scalable profiles to approve, deny, or provide machine associations</li>
+
+
+						</ul>
+					</p>
+                </div>
+            </section>
         </div>
+        <HomeThinSection />
 
     </Layout>
 )

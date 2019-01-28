@@ -20,26 +20,44 @@ const IndustryHalves = (props) => (
 				<div className="col-6">
 					<h2 className='text-black montserrat-thick'>Dental</h2>
 					<p>We are a premier MSP for businesses that need to maintain HIPPA compliance</p>
+					<ul className="actions">
+							<li><Link to="dental" className="button dark-btn">Dental Solutions</Link></li>
+					</ul>
 				</div>
 				<div className="col-6">
 					<h2 className='text-black montserrat-thick'>Medical</h2>
 					<p>We are a premier MSP for businesses that need to maintain HIPPA compliance</p>
+					<ul className="actions">
+							<li><Link to="medical" className="button dark-btn">Medical Solutions</Link></li>
+					</ul>
 				</div>
 				<div className="col-6">
 					<h2 className='text-black montserrat-thick'>Telecom</h2>
 					<p>We are a premier MSP for businesses that need to maintain HIPPA compliance</p>
+					<ul className="actions">
+							<li><Link to="telecom" className="button dark-btn">Telecom Solutions</Link></li>
+					</ul>
 				</div>
 				<div className="col-6">
 					<h2 className='text-black montserrat-thick'>Education</h2>
 					<p>We are a premier MSP for businesses that need to maintain HIPPA compliance</p>
+					<ul className="actions">
+							<li><Link to="education" className="button dark-btn">Education Solutions</Link></li>
+					</ul>
 				</div>
 				<div className="col-6">
 					<h2 className='text-black montserrat-thick'>Financial</h2>
 					<p>We are a premier MSP for businesses that need to maintain HIPPA compliance</p>
+					<ul className="actions">
+							<li><Link to="financial" className="button dark-btn">Financial Solutions</Link></li>
+					</ul>
 				</div>
 				<div className="col-6">
 					<h2 className='text-black montserrat-thick'>Small Businesses</h2>
 					<p>We are a premier MSP for businesses that need to maintain HIPPA compliance</p>
+					<ul className="actions">
+							<li><Link to="small-business" className="button dark-btn">Small Business Solutions</Link></li>
+					</ul>
 				</div>
 			</div>
 

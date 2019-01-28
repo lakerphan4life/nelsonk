@@ -142,6 +142,22 @@
 					background-color: _palette(accent6);
 				}
 			}
+
+			&.article-33 {
+				width: 33.33333%;
+
+				&:before {
+					background-color: _palette(accent5);
+				}
+
+
+
+				&:nth-child(2n + 2) {
+					&:before {
+						background-color: _palette(accent2);
+					}
+				}
+			}
 		}
 
 		@include breakpoint(large) {
@@ -154,13 +170,15 @@
 		}
 
 		@include breakpoint(medium) {
-			article {
+			article, .article-33 {
 				width: 50% !important;
 			}
+
+			
 		}
 
 		@include breakpoint(small) {
-			article {
+			article, .article-33 {
 				@include padding(3em, 1.5em);
 				height: 16em;
 				max-height: none;
@@ -175,7 +193,7 @@
 		@include breakpoint(xsmall) {
 			display: block;
 
-			article {
+			article, .article-33 {
 				height: 20em;
 				width: 100% !important;
 			}

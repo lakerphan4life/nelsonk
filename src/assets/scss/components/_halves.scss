@@ -1,3 +1,4 @@
+
 #industry-section {
 	// background: linear-gradient(50deg, _palette(bg) 65% , #f9f9f9 65%);
 	background: _palette(white1);
@@ -6,4 +7,73 @@
 
 .industry-header {
 	padding-bottom: 3em;
+}
+
+
+#services-halves {
+
+	line-height: 1.75em;
+
+	> section {
+		& .image {
+			position: relative;
+			// display: inline-block;
+
+			background: url('../../assets/images/servers1760x990.png');
+			background-size: cover;
+			background-position: center center;
+			
+			& h2 {
+				@include vendor('transition', 'color 0.5s ease');
+				line-height: 0;
+				position: absolute;
+				top: 50%;
+				width: 100%;
+				text-align: center;
+				left: 0;
+				margin: 0;
+				padding: 0;
+				z-index: 3;
+				color: #ffffff;
+		
+			}
+
+			&:before {
+				@include vendor('transition', 'opacity 0.5s ease');
+				bottom: 0;
+				content: '';
+				display: block;
+				height: 100%;
+				left: 0;
+				opacity: 0.85;
+				position: absolute;
+				width: 100%;
+				z-index: 2;
+				background: linear-gradient(39deg, rgba(15, 37, 70, 0.571), rgba(2, 4, 55, 0.9)) !important;
+			}
+
+			// &:hover  {
+
+			// 	h2 {
+			// 		color: #ffffff;
+			// 	}
+			// 	&:before {
+			// 		opacity: 0;
+			// 	}
+			// }
+		}
+	}
+	ul.service-bullets{
+		list-style: none;
+	}
+
+	ul.service-bullets li {
+		padding-bottom: 10px;
+	}
+	  
+	ul.service-bullets li:before {
+	content: '✓';
+	padding-right: 10px;
+	}
+
 }

@@ -1,12 +1,11 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import ManagedServicesBanner from '../components/ManagedServicesBanner'
-import ServicesThirds from '../components/ServicesThirds'
+import NewServicesThirds from '../components/NewServicesThirds'
+import ServicesIntro from '../components/ServicesIntro'
 
-
-import pic01 from '../assets/images/servers1760x990.png'
+import PDF from '../assets/files/retail_solutions.pdf'
 
 
 const ManagedServices = (props) => (
@@ -19,29 +18,12 @@ const ManagedServices = (props) => (
         <ManagedServicesBanner />
 
         <div id="main">
+            
+            <ServicesIntro />
+            <NewServicesThirds />
 
-            <ServicesThirds />
 
-
-            <section id="two" className="spotlights">
-                <section>
-                    <Link to="#" className="image">
-                        <img src={pic01} alt="" />
-                    </Link>
-                    <div className="content bg-white">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Looking for hardware solutions?</h3>
-                            </header>
-                            <p>We are a specialized distributor of Dell products, with access to a vast network of hardware solutions for businesses of any size</p>
-                            <ul className="actions">
-                                <li><Link to="hardware" className="button dark-btn">Hardware Solutions</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                
-            </section>
+           
         </div>
 
         
