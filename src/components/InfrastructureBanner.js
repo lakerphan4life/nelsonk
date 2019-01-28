@@ -1,6 +1,6 @@
 import React from 'react'
 
-import pic1 from '../assets/images/managed-banner.png'
+import pic1 from '../assets/images/infrastructure.jpg'
 
 
 const InfrastructureBanner = (props) => (
