@@ -40,7 +40,7 @@ class HomeIndex extends React.Component {
                                 <h3>Industries We Serve</h3>
                                 <p>Learn about all the industries we cater to</p>
                             </header>
-                            <Link to="/managed-services" className="link primary"></Link>
+                            <Link to="/industries" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`, backgroundPosition: `right`}}>
                             <header className="major">
@@ -54,7 +54,7 @@ class HomeIndex extends React.Component {
                                 <h2>Hardware Solutions</h2>
                                 <p>Let our team get you the best hardware available today</p>
                             </header>
-                            <Link to="/managed-services" className="link primary"></Link>
+                            <Link to="/hardware" className="link primary"></Link>
                         </article>
                         
                         <article style={{backgroundImage: `url(${pic03})`, backgroundPosition: `right`}}>
@@ -62,7 +62,7 @@ class HomeIndex extends React.Component {
                                 <h3>About Us</h3>
                                 <p>See how Nelson K Enterprise rose to become a leading MSP provider</p>
                             </header>
-                            <Link to="/managed-services" className="link primary"></Link>
+                            <Link to="/about" className="link primary"></Link>
                         </article>
                     </section>
 
