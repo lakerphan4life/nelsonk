@@ -1,7 +1,11 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
-import productimage from '../../assets/images/desktop-optiplex-3060.jpeg'
+import productimage from '../../assets/images/Optiplex3.png'
+
+import PDF from '../../assets/files/Desktops_OptiPlex_3060_Spec_Sheet.pdf'
+import PDF2 from '../../assets/files/Desktops_OptiPlex_Product_Feature_Comparison.pdf'
+
+
 
 const Optiplex3060 = (props) => (
 
@@ -12,22 +16,17 @@ const Optiplex3060 = (props) => (
 		<div className="content">
 			<div className="inner">
 				<header className="title">
-					<h2>Dell OptiPlex 3060 Micro</h2>
+					<h2>OptiPlex 3 Series</h2>
 				</header>
 				<h3 className="text-black">Serious productivity. Space-saving design.</h3>
-				<p>The micro takes up less surface area while still maintaining all the reliability you've come to expect. Full-power features in a space-saving design, more workers choose the OptiPlex micro than ever before.<br /><br />
-					<ul>
-						
-						<li>
-						Intel Core™ i5-8500T (6 Cores/9MB/6T/up to 3.5GHz/35W); supports Windows 10/Linux						
-						</li>
-
-					</ul>
-					
+				<p>				Business desktops with essential performance and manageability in space-saving designs. The micro takes up less surface area while still maintaining all the reliability you've come to expect. Full-power features in a space-saving design, more workers choose the OptiPlex micro than ever before. 
 					
 				</p>
 				<ul className="actions">
-					<li><Link to="#" className="button dark-btn">REQUEST INFORMATION</Link></li>
+					<li><a href={PDF} target="_blank">VIEW SPECIFICATIONS &rarr;</a></li>
+				</ul>
+				<ul className="actions">
+					<li><a href={PDF2} target="_blank">OPTIPLEX COMPARISON GUIDE &rarr;</a></li>
 				</ul>
 			</div>
 		</div>

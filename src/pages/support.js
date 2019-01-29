@@ -16,22 +16,27 @@ const Support = (props) => (
         <div id="main" className="alt">
             <section id="one">
                 <div className="inner">
-					<p className="text-center" style={{padding: `2em 0`}}>Utilizing an array of system wide reports allows us to provide on-going recommendations that support innovation, change, through continuity with business strategy that equate to future success.   Up to date applications with scripted device management and monitoring.
-With our network monitoring that allows us to see all devices, this allows us to identify any risk and use security alerts that generate automated tickets and start the resolution process to fix the issue.  This is commonly utilized and appreciated by companies that come in to find issues that occurred over the weekend and start their Monday with an I.T crisis on their hands.  We perform 24-hour, 7-day a week monitoring which is one of the key elements that our clients appreciate.
-</p>
+					<p className="text-center" style={{padding: `2em 0 0`}}>
+					Customizable reports indicating details of on-going services and actions take.  Utilizing out help desk and 24/7 live monitoring we are proactively identifying issues by preventing business interruptions by quickly resolving them before they have a chance to negatively impact the business. Our services are design to allow businesses to focus on the big picture, business development and strategic planning.  We do this by taking action, preventively issues that need attention, identifying and reporting future concerns and immediate solutions while remediating the issue before the business is disrupted by any type of disturbance.  We do not have a one size fits all model and under stand that every business has different needs. 
+					<br />
+					<br />
+We use are custom based solutions that directly support their business needs and increase performance, decrease overhead and monthly cost, and capture lost revenue with SLA’s, extended warranties, offering hardware that best suites business daily operations.  With the automated tool that allow us to identify and successfully fix any issues before they become disrupting, automated tickets are created and documented that allow us to provide a detailed report of what we have done to maintain optimal health of your network.
 
-					<h2>What to expect from our Automation service</h2>
+					</p>
+
+					<h2>What to expect from our Support &amp; Managed services</h2>
                     <p>
 						<ul>
-						<li>Patch management</li>
-<li>Updated applications across multiple devices</li>
-<li>Network monitoring across all devices</li>
-<li>Security alerts </li>
-<li>Client portal and integrated ticketing system</li>
-<li>Complete network visibility to pinpoint areas of action</li>
-<li>System-wide network monitoring with intellectual alerting, including auto responses as well as auto resolutions. </li>
-<li>Schedule a Scan &amp; Analysis of the network on a regular routine so you can automate updates</li>
-
+							<li>Provide the highest quality of hardware and Software</li>
+							<li>Extended warranty on all Hardware</li>
+							<li>Effective solutions &amp; business strategy</li>
+							<li>Security alerts</li>
+							<li>Expectations and SLAs</li>
+							<li>Help Desk 24/7 -365 days per year</li>
+							<li>24/7 monitoring and client access utilizing client portals </li>
+							<li>Live 24-hour monitoring of all end points</li>
+							<li>Preventive remote actions improve business efficiency</li>
+							<li>Scalability allowing unlimited growth with additional devices</li>
 						</ul>
 					</p>
                 </div>

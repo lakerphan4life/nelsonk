@@ -3,12 +3,12 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import HomeBanner from '../components/HomeBanner'
-import HomeThreeColumn from '../components/HomeThreeColumn'
+import HomeIntro from '../components/HomeIntro'
 import HomeThinSection from '../components/HomeThinSection'
 
 import pic01 from '../assets/images/servers1760x990.png'
 import pic02 from '../assets/images/medical-1600x697.png'
-import pic03 from '../assets/images/vector.png'
+import pic03 from '../assets/images/electric-bg-big.png'
 import pic04 from '../assets/images/managed-banner.png'
 
 
@@ -30,21 +30,18 @@ class HomeIndex extends React.Component {
                 <HomeBanner />
 
                 <div id="main">
-                    {/* <section id="one" style={{ background: `#ffffff`, color: `#000000`}}>
-                        <div className="inner">
-                            <header className="major">
-                                <h2 className="h2 text-black">Growth, profitability, and increased efficacy</h2>
-                            </header>
-                            <p>Nelson K Enterprise is the premier MSP provider in the Northwest. Over the years, Nelson K Enterprise has become a leader in the IT and MSP community, developing an ironclad process to maximize each client's potential for savings. Our first step is to evaluate your current infrastructure and find areas that will enable us to have the greatest impact on your growth, profitability, and efficacy.</p>
-                            <ul className="actions">
-                                <li><Link to="/managed-services" className="button dark-btn">Get Started</Link></li>
-                            </ul>
-                        </div>
-                    </section> */}
+                    <HomeIntro />
 
-                    <HomeThreeColumn />
+
 
                     <section id="one" className="tiles">
+                        <article style={{backgroundImage: `url(${pic02})`}}>
+                            <header className="major">
+                                <h3>Industries We Serve</h3>
+                                <p>Learn about all the industries we cater to</p>
+                            </header>
+                            <Link to="/managed-services" className="link primary"></Link>
+                        </article>
                         <article style={{backgroundImage: `url(${pic04})`, backgroundPosition: `right`}}>
                             <header className="major">
                                 <h2>Managed Services</h2>
@@ -59,13 +56,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/managed-services" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
-                            <header className="major">
-                                <h3>Industries We Serve</h3>
-                                <p>Learn about all the industries we cater to</p>
-                            </header>
-                            <Link to="/managed-services" className="link primary"></Link>
-                        </article>
+                        
                         <article style={{backgroundImage: `url(${pic03})`, backgroundPosition: `right`}}>
                             <header className="major">
                                 <h3>About Us</h3>
@@ -76,7 +67,6 @@ class HomeIndex extends React.Component {
                     </section>
 
                 </div>
-
                 <HomeThinSection />
 
             </Layout>

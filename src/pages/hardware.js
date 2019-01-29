@@ -6,7 +6,7 @@ import HomeThinSection from '../components/HomeThinSection'
 
 // PRODUCTS
 import Optiplex3060 from '../components/products/Optiplex3060'
-import Optiplex3060Small from '../components/products/Optiplex3060Small'
+import Optiplex5 from '../components/products/Optiplex5'
 import T440 from '../components/products/T440'
 import R330 from '../components/products/R330'
 import C4140 from '../components/products/C4140'
@@ -25,7 +25,7 @@ const Hardware = (props) => (
             <section id="" className="products">
 				
                 <Optiplex3060 />
-                <Optiplex3060Small />
+                <Optiplex5 />
                 <T440 />
                 <R330 />
                 <C4140 />

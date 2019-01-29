@@ -10,7 +10,7 @@ const Documentation = (props) => (
     <Layout>
         <Helmet>
             <title>Documentation  &amp; Business Process Services - Nelson K Enterprise</title>
-            <meta name="description" content="Documentation Services offered by Nelson K Enterprise" />
+            <meta name="description" content="Documentation &amp; Business Process Services offered by Nelson K Enterprise" />
         </Helmet>
 
         <DocumentationBanner />

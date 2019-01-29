@@ -121,7 +121,7 @@
 
 			&:nth-child(6n - 3) {
 				&:before {
-					background-color: rgba(255, 196, 0, 0.5);
+					background-color: _palette(accent3);
 				}
 			}
 

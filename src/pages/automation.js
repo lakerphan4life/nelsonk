@@ -13,7 +13,7 @@ const Automation = (props) => (
             <meta name="description" content="Automation Services by Nelson K Enterprise" />
         </Helmet>
 		<AutomationBanner />
-        <div id="main" className="">
+        <div id="main" className="alt">
             <section id="one">
                 <div className="inner">
 					<p className="text-center" style={{padding: `2em 0`}}>Utilizing an array of system wide reports allows us to provide on-going recommendations that support innovation, change, through continuity with business strategy that equate to future success.   Up to date applications with scripted device management and monitoring.

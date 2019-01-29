@@ -7,7 +7,7 @@ const SupportBanner = (props) => (
     <section id="banner" className="style2" style={{backgroundImage: `url(${banner})`}}>
         <div className="inner">
             <header className="major">
-                <h1 className="text-white">Support Services</h1>
+                <h1 className="text-white">Support &amp; Managed Services</h1>
             </header>
         </div>
     </section>
