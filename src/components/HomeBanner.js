@@ -9,9 +9,9 @@ const HomeBanner = (props) => (
             <div className="content">
                 <p>We are an MSP team offering hardware and I.T services across multiple markets in the greater northwest, specializing in medical and dental office infrastructure and I.T. management.
                 </p>
-                <ul className="actions">
+                {/* <ul className="actions">
                     <li><a href="#one" className="button scrolly special">Get Started</a></li>
-                </ul>
+                </ul> */}
             </div>
         </div>
     </section>
