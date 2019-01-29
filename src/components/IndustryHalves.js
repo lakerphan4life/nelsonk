@@ -39,7 +39,7 @@ const IndustryHalves = (props) => (
 					<h2 className='text-black montserrat-thick'>Construction</h2>
 					<p>We are a premier MSP for businesses that need to maintain HIPPA compliance</p>
 					<ul className="actions">
-						<li><a href="../static/files/Industries_MFG_ENG_Industry_Brochure.pdf" target="_blank">VIEW DETAILS &rarr;</a></li>
+						<li><a href="/static/files/Industries_MFG_ENG_Industry_Brochure.pdf" target="_blank">VIEW DETAILS &rarr;</a></li>
 					</ul>
 				</div>
 				<div className="col-6">
