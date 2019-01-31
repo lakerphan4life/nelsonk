@@ -5,7 +5,6 @@ import ManagedServicesBanner from '../components/ManagedServicesBanner'
 import NewServicesThirds from '../components/NewServicesThirds'
 import ServicesIntro from '../components/ServicesIntro'
 
-import PDF from '../assets/files/retail_solutions.pdf'
 
 
 const ManagedServices = (props) => (
