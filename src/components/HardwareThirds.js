@@ -28,10 +28,10 @@ const HardwareThirds = (props) => (
 		</article>
 		<article className="article-33" style={{backgroundImage: `url(${infrastructure})`}}>
 			<header className="major">
-				<h3>Firewall &amp; Security</h3>
+				<h3>Backup &amp; Security</h3>
 				
 			</header>
-			<Link to="/firewall-security" className="link primary"></Link>
+			<Link to="/backup-security" className="link primary"></Link>
 		</article>
 		<article className="article-33" style={{backgroundImage: `url(${itconsulting})`, backgroundPosition: `right`}}>
 			<header className="major">

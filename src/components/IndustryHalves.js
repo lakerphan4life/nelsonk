@@ -1,10 +1,17 @@
 import React from 'react'
 
-import healthcare from '../assets/files/Industries_Dell_Client_Solutions_for_Healthcare_Brochure.pdf'
-import financial from '../assets/files/Industries_Dell_Client_Solutions_for_Financial_Services.pdf'
-import government from '../assets/files/Industries_Dell_Client_Solutions_for_State_and_Local_Government_Brochure.pdf'
-import retail from '../assets/files/Industries_dell_client_solutions_for_retail_brochure.pdf'
-import construction from '../assets/files/Industries_MFG_ENG_Industry_Brochure.pdf'
+// import healthcare from '../assets/files/Industries_Dell_Client_Solutions_for_Healthcare_Brochure.pdf'
+// import financial from '../assets/files/Industries_Dell_Client_Solutions_for_Financial_Services.pdf'
+// import government from '../assets/files/Industries_Dell_Client_Solutions_for_State_and_Local_Government_Brochure.pdf'
+// import retail from '../assets/files/Industries_dell_client_solutions_for_retail_brochure.pdf'
+// import construction from '../assets/files/Industries_MFG_ENG_Industry_Brochure.pdf'
+
+import dental from '../assets/images/dental.png'
+import healthcare from '../assets/images/healthcare.png'
+import financial from '../assets/images/financial.png'
+import government from '../assets/images/government.png'
+import reatil from '../assets/images/reatil.png'
+import construction from '../assets/images/construction.png'
 
 
 
@@ -22,45 +29,51 @@ const IndustryHalves = (props) => (
 
 			<div className="grid-wrapper text-black" style={{ gridGap: `2.25em` }}>
 				<div className="col-6">
+					<img src={dental} alt="" style={{ maxWidth: `100%` }} />
 					<h2 className='text-black montserrat-thick'>Dental</h2>
 					<p>We are a premier MSP for businesses that need to maintain HIPPA compliance</p>
 					<ul className="actions">
-						<li><a href={healthcare} target="_blank">VIEW DETAILS &rarr;</a></li>
+						<li><a href='' target="_blank">VIEW DETAILS &rarr;</a></li>
 					</ul>
 				</div>
 				<div className="col-6">
+					<img src={healthcare} alt="" style={{ maxWidth: `100%` }} />
 					<h2 className='text-black montserrat-thick'>Healthcare</h2>
 					<p>We are a premier MSP for businesses that need to maintain HIPPA compliance. Through innovative technology, Nelson K Enterprise can help healthcare providers dramatically improve their efficiency</p>
 					<ul className="actions">
-						<li><a href={healthcare} target="_blank">VIEW DETAILS &rarr;</a></li>
+						<li><a href='' target="_blank">VIEW DETAILS &rarr;</a></li>
 					</ul>
 				</div>
 				<div className="col-6">
+					<img src={construction} alt="" style={{ maxWidth: `100%` }} />
 					<h2 className='text-black montserrat-thick'>Construction</h2>
 					<p>We are a premier MSP for businesses that need to maintain HIPPA compliance</p>
 					<ul className="actions">
-						<li><a href={construction} target="_blank">VIEW DETAILS &rarr;</a></li>
+						<li><a href='' target="_blank">VIEW DETAILS &rarr;</a></li>
 					</ul>
 				</div>
 				<div className="col-6">
+					<img src={government} alt="" style={{ maxWidth: `100%` }} />
 					<h2 className='text-black montserrat-thick'>Government</h2>
 					<p>We are a premier MSP for businesses that need to maintain HIPPA compliance</p>
 					<ul className="actions">
-						<li><a href={government} target="_blank">VIEW DETAILS &rarr;</a></li>
+						<li><a href='' target="_blank">VIEW DETAILS &rarr;</a></li>
 					</ul>
 				</div>
 				<div className="col-6">
+					<img src={financial} alt="" style={{ maxWidth: `100%` }} />
 					<h2 className='text-black montserrat-thick'>Financial</h2>
 					<p>Introducing, next-level market intelligence. As your MSP provider, Nelson K Enterprise brings you the best technology to help traders and sales makers excel in their fast-paced fields. Learn more by going to the link below.</p>
 					<ul className="actions">
-						<li><a href={financial} target="_blank">VIEW DETAILS &rarr;</a></li>
+						<li><a href='' target="_blank">VIEW DETAILS &rarr;</a></li>
 					</ul>
 				</div>
 				<div className="col-6">
+					<img src={reatil} alt="" style={{ maxWidth: `100%` }} />
 					<h2 className='text-black montserrat-thick'>Retail</h2>
 					<p>We are a premier MSP for businesses that need to maintain HIPPA compliance</p>
 					<ul className="actions">
-						<li><a href={retail} target="_blank">VIEW DETAILS &rarr;</a></li>
+						<li><a href='' target="_blank">VIEW DETAILS &rarr;</a></li>
 					</ul>
 				</div>
 			</div>

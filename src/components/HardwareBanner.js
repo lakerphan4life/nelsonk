@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-import banner from '../assets/images/servers1760x990.png'
+import banner from '../assets/images/hardwarebanner-2.png'
 
 
 const HardwareBanner = (props) => (

@@ -1,22 +1,21 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-// import HardwareBanner from '../components/HardwareBanner'
 import HomeThinSection from '../components/HomeThinSection'
 
 // PRODUCTS
-import PowerEdge from '../components/products/PowerEdge'
+import BackupSecurityProducts from '../components/products/BackupSecurityProducts'
 
 
 import banner from '../assets/images/servers1760x990.png'
 
 
 
-const Servers = (props) => (
+const BackupSecurity = (props) => (
     <Layout>
         <Helmet>
-            <title>Servers - Nelson K Enterprise</title>
-            <meta name="description" content="Servers offered by Nelson K Enterprise" />
+            <title>Backup &amp; Security Solutions - Nelson K Enterprise</title>
+            <meta name="description" content="Backup &amp; Security Solutions offered by Nelson K Enterprise" />
         </Helmet>
 
 
@@ -25,14 +24,14 @@ const Servers = (props) => (
 			<section id="banner" className="style2" style={{backgroundImage: `url(${banner})`}}>
 				<div className="inner">
 					<header className="major">
-						<h1>Servers</h1>
+						<h1>Backup &amp; Security Solutions</h1>
 					</header>
 				</div>
 			</section>
 
             <section id="" className="products">
 				
-                <PowerEdge />
+                <BackupSecurityProducts />
 
             </section>
 
@@ -43,4 +42,4 @@ const Servers = (props) => (
     </Layout>
 )
 
-export default Servers
+export default BackupSecurity

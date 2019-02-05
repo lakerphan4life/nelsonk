@@ -6,7 +6,7 @@ import HomeBanner from '../components/HomeBanner'
 import HomeIntro from '../components/HomeIntro'
 import HomeThinSection from '../components/HomeThinSection'
 
-import pic01 from '../assets/images/servers1760x990.png'
+import pic01 from '../assets/images/hardwarebanner-2.png'
 import pic02 from '../assets/images/medical-1600x697.png'
 import pic03 from '../assets/images/electric-bg-big.png'
 import pic04 from '../assets/images/managed-banner.png'
