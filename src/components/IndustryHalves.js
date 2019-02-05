@@ -33,7 +33,7 @@ const IndustryHalves = (props) => (
 					<h2 className='text-black montserrat-thick'>Dental</h2>
 					<p>We are a premier MSP for businesses that need to maintain HIPPA compliance</p>
 					<ul className="actions">
-						<li><a href='' target="_blank">VIEW DETAILS &rarr;</a></li>
+						<li><a href='https://cdnnelsonkenterprise.netlify.com/files/Industries_Dell_Client_Solutions_for_Healthcare_Brochure.pdf' target="_blank">VIEW DETAILS &rarr;</a></li>
 					</ul>
 				</div>
 				<div className="col-6">
@@ -41,7 +41,7 @@ const IndustryHalves = (props) => (
 					<h2 className='text-black montserrat-thick'>Healthcare</h2>
 					<p>We are a premier MSP for businesses that need to maintain HIPPA compliance. Through innovative technology, Nelson K Enterprise can help healthcare providers dramatically improve their efficiency</p>
 					<ul className="actions">
-						<li><a href='' target="_blank">VIEW DETAILS &rarr;</a></li>
+						<li><a href='https://cdnnelsonkenterprise.netlify.com/files/Industries_Dell_Client_Solutions_for_Healthcare_Brochure.pdf' target="_blank">VIEW DETAILS &rarr;</a></li>
 					</ul>
 				</div>
 				<div className="col-6">
@@ -49,7 +49,7 @@ const IndustryHalves = (props) => (
 					<h2 className='text-black montserrat-thick'>Construction</h2>
 					<p>We are a premier MSP for businesses that need to maintain HIPPA compliance</p>
 					<ul className="actions">
-						<li><a href='' target="_blank">VIEW DETAILS &rarr;</a></li>
+						<li><a href='https://cdnnelsonkenterprise.netlify.com/files/Industries_MFG_ENG_Industry_Brochure.pdf' target="_blank">VIEW DETAILS &rarr;</a></li>
 					</ul>
 				</div>
 				<div className="col-6">
@@ -57,7 +57,7 @@ const IndustryHalves = (props) => (
 					<h2 className='text-black montserrat-thick'>Government</h2>
 					<p>We are a premier MSP for businesses that need to maintain HIPPA compliance</p>
 					<ul className="actions">
-						<li><a href='' target="_blank">VIEW DETAILS &rarr;</a></li>
+						<li><a href='https://cdnnelsonkenterprise.netlify.com/files/Industries_Dell_Client_Solutions_for_State_and_Local_Government_Brochure.pdf' target="_blank">VIEW DETAILS &rarr;</a></li>
 					</ul>
 				</div>
 				<div className="col-6">
@@ -65,7 +65,7 @@ const IndustryHalves = (props) => (
 					<h2 className='text-black montserrat-thick'>Financial</h2>
 					<p>Introducing, next-level market intelligence. As your MSP provider, Nelson K Enterprise brings you the best technology to help traders and sales makers excel in their fast-paced fields. Learn more by going to the link below.</p>
 					<ul className="actions">
-						<li><a href='' target="_blank">VIEW DETAILS &rarr;</a></li>
+						<li><a href='https://cdnnelsonkenterprise.netlify.com/files/Industries_Dell_Client_Solutions_for_Financial_Services.pdf' target="_blank">VIEW DETAILS &rarr;</a></li>
 					</ul>
 				</div>
 				<div className="col-6">
@@ -73,7 +73,7 @@ const IndustryHalves = (props) => (
 					<h2 className='text-black montserrat-thick'>Retail</h2>
 					<p>We are a premier MSP for businesses that need to maintain HIPPA compliance</p>
 					<ul className="actions">
-						<li><a href='' target="_blank">VIEW DETAILS &rarr;</a></li>
+						<li><a href='https://cdnnelsonkenterprise.netlify.com/files/Industries_dell_client_solutions_for_retail_brochure.pdf' target="_blank">VIEW DETAILS &rarr;</a></li>
 					</ul>
 				</div>
 			</div>
