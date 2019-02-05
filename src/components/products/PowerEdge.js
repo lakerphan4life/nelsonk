@@ -17,7 +17,7 @@ const PowerEdge = (props) => (
 				</header>
 				<h3 className="text-black">Designed to help you accomplish more.</h3>
 				<ul className="actions">
-					<li><a href='#' target="_blank">POWEREDGE SERVERS &rarr;</a></li>
+					<li><a href='https://cdnnelsonkenterprise.netlify.com/files/PoweredgeServers.pdf' target="_blank">POWEREDGE SERVERS &rarr;</a></li>
 				</ul>
 			</div>
 		</div>

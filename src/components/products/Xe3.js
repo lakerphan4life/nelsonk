@@ -24,7 +24,7 @@ const Xe3 = (props) => (
 					
 				</p>
 				<ul className="actions">
-					<li><a href={PDF} target="_blank">VIEW SPECIFICATIONS &rarr;</a></li>
+					<li><a href='https://cdnnelsonkenterprise.netlify.com/files/Desktops_OptiPlex_XE3_Spec_Sheet(1).pdf' target="_blank">VIEW SPECIFICATIONS &rarr;</a></li>
 				</ul>
 			</div>
 		</div>

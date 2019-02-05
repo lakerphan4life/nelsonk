@@ -2,8 +2,6 @@ import React from 'react'
 
 import productimage from '../../assets/images/Optiplex3.png'
 
-import PDF from '../../assets/files/Desktops_OptiPlex_3060_Spec_Sheet.pdf'
-import PDF2 from '../../assets/files/Desktops_OptiPlex_Product_Feature_Comparison.pdf'
 
 
 
@@ -23,10 +21,10 @@ const Optiplex3060 = (props) => (
 					
 				</p>
 				<ul className="actions">
-					<li><a href={PDF} target="_blank">VIEW SPECIFICATIONS &rarr;</a></li>
+					<li><a href='https://cdnnelsonkenterprise.netlify.com/files/Desktops_OptiPlex_3060_Spec_Sheet.pdf' target="_blank">VIEW SPECIFICATIONS &rarr;</a></li>
 				</ul>
 				<ul className="actions">
-					<li><a href={PDF2} target="_blank">OPTIPLEX COMPARISON GUIDE &rarr;</a></li>
+					<li><a href='https://cdnnelsonkenterprise.netlify.com/files/Desktops_OptiPlex_Product_Feature_Comparison.pdf' target="_blank">OPTIPLEX COMPARISON GUIDE &rarr;</a></li>
 				</ul>
 			</div>
 		</div>

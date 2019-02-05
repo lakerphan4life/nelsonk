@@ -17,7 +17,7 @@ const BackupSecurityProducts = (props) => (
 				</header>
 				<h3 className="text-black">The best data protection and reliable storage options.</h3>
 				<ul className="actions">
-					<li><a href='#' target="_blank">BACKUP &amp; SECURITY SOLUTIONS &rarr;</a></li>
+					<li><a href='https://cdnnelsonkenterprise.netlify.com/files/BackupSecurity.pdf' target="_blank">BACKUP &amp; SECURITY SOLUTIONS &rarr;</a></li>
 				</ul>
 			</div>
 		</div>

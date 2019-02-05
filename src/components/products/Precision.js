@@ -2,9 +2,6 @@ import React from 'react'
 
 import productimage from '../../assets/images/Desktops_Dell_Precision_Timeline.png'
 
-import PDF from '../../assets/files/Desktops_Dell_Precision_Timeline.pdf'
-
-
 const Precision = (props) => (
 
 	<section>
@@ -22,7 +19,7 @@ const Precision = (props) => (
 				</p>
 				
 				<ul className="actions">
-					<li><a href={PDF} target="_blank">VIEW DETAILS &rarr;</a></li>
+					<li><a href='https://cdnnelsonkenterprise.netlify.com/files/Desktops_Dell_Precision_Timeline.pdf' target="_blank">VIEW DETAILS &rarr;</a></li>
 				</ul>
 			</div>
 		</div>

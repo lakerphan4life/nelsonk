@@ -17,10 +17,10 @@ const Monitor = (props) => (
 				</header>
 				<h3 className="text-black">Business monitors from the world's #1 brand</h3>
 				<ul className="actions">
-					<li><a href='#' target="_blank">DELL BUSINESS MONITORS &rarr;</a></li>
+					<li><a href='https://cdnnelsonkenterprise.netlify.com/files/Monitors_Dell-Monitors-Family-Brochure.pdf' target="_blank">DELL BUSINESS MONITORS &rarr;</a></li>
 				</ul>
 				<ul className="actions">
-					<li><a href='#' target="_blank">SAMSUNG SMART SIGNAGE &rarr;</a></li>
+					<li><a href='https://cdnnelsonkenterprise.netlify.com/files/Monitors_SE-4870_Smart_Signage_Platform_Brochure_M1.pdf' target="_blank">SAMSUNG SMART SIGNAGE &rarr;</a></li>
 				</ul>
 			</div>
 		</div>
