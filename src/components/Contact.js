@@ -5,6 +5,8 @@ const Contact = (props) => (
         <div className="inner">
             <section>
                 <form method="POST" action="/message-sent" name='contact-form-footer' data-netlify="true">
+                <input type="hidden" name="contact-form-footer" value="contact" />
+
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
                         <input type="text" name="name" id="name" />
