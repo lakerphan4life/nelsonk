@@ -14,8 +14,10 @@ const MessageSent = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="">
-                        <h1>Success! Your message was sent. We will be in touch</h1>
+                        <h1>Success!<br />Your message was sent!</h1>
                     </header>
+					<p>Would you like to schedule a consultation or an on-site visit?</p>
+					<a href="https://calendly.com/cnelson-84/15min/" target="_blank" className="text-center button dark-btn">SCHEDULE CONSULTATION</a>
 				</div>
 			</section>
 		</div>

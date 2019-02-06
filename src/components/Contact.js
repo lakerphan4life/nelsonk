@@ -4,22 +4,21 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form method="post" action="/message-sent" name='contact-form-footer' data-netlify="true">
+                <form method="POST" action="/message-sent" name='contact-form-footer' data-netlify="true">
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
                         <input type="text" name="name" id="name" />
                     </div>
                     <div className="field half">
                         <label htmlFor="email">Email</label>
-                        <input type="text" name="email" id="email" />
+                        <input type="email" name="email" id="email" />
                     </div>
                     <div className="field">
                         <label htmlFor="message">Message</label>
                         <textarea name="message" id="message" rows="6"></textarea>
                     </div>
                     <ul className="actions">
-                        <li><input type="submit" value="Send Message" className="button dark-btn" /></li>
-                        {/* <li><input type="reset" value="Clear" className="special" /></li> */}
+                        <li><button type="submit" className="button dark-btn">Submit Message</button></li>
                     </ul>
                 </form>
             </section>
