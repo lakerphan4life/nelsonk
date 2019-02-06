@@ -11,7 +11,7 @@ const HomeThinSection = (props) => (
 					<p className="h2 montserrat-thick text-center" style={{marginBottom: `1em`}}>Ready to take your business to the next level?</p>
 				</div>
 				<div className="text-center">
-					<Link to="#" className="text-center button green-btn">SCHEDULE CONSULTATION</Link>
+					<a href="https://calendly.com/cnelson-84/15min/" target="_blank" className="text-center button green-btn">SCHEDULE CONSULTATION</a>
 				</div>
 			</div>
 		</div>

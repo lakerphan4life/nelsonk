@@ -6,17 +6,17 @@ import HardwareBanner from '../components/HardwareBanner'
 import BackupSecurityProducts from '../components/products/BackupSecurityProducts'
 import Monitor from '../components/products/Monitor'
 import DesktopProduct from '../components/products/DesktopProduct'
-
 import PowerEdge from '../components/products/PowerEdge'
 
 
 const Hardware = (props) => (
+    
     <Layout>
         <Helmet>
             <title>Hardware Solutions - Nelson K Enterprise</title>
             <meta name="description" content="Hardware solutions offered by Nelson K Enterprise" />
         </Helmet>
-
+        
         <HardwareBanner />
 
         <div id="main" style={{backgroundColor: `#ffffff`}}>

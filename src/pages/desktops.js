@@ -11,7 +11,7 @@ import Optiplex7 from '../components/products/Optiplex7'
 import Precision from '../components/products/Precision'
 import Xe3 from '../components/products/Xe3'
 
-import banner from '../assets/images/servers1760x990.png'
+import banner from '../assets/images/Optiplex5.png'
 
 
 

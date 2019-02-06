@@ -1,18 +1,25 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 const Footer = (props) => (
     <footer id="footer">
         <div className="inner">
             <ul className="icons">
-                <li><a href="#" className="icon alt fa-twitter"><span className="label">Twitter</span></a></li>
-                <li><a href="#" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>
-                <li><a href="#" className="icon alt fa-instagram"><span className="label">Instagram</span></a></li>
-                <li><a href="#" className="icon alt fa-github"><span className="label">GitHub</span></a></li>
-                <li><a href="#" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
+            <li><span style={{ letterSpacing: `2px` }}>NELSON K ENTERPRISE</span></li>
+            <br ></br>
+                <li><Link onClick={props.onToggleMenu} to="/">Home</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/industries">Industries</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/managed-services">Services</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/hardware">Hardware</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/about">About Us</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/contact">Contact Us</Link></li>
             </ul>
             <ul className="copyright">
-                <li>&copy; Nelson K Enterprise LLC, 2019</li><br/>Designed by <a href="https://imanhamidi.com?utm_source=referral&utm_medium=nelsonk">Iman Hamidi</a>
+                <li>&copy; <span style={{ letterSpacing: `2px`, fontSize: `0.8em` }}>NELSON K ENTERPRISE LLC, 2019</span></li>
+                <li><span style={{ letterSpacing: `2px`, fontSize: `0.8em` }}><a href="https://imanhamidi.com?utm_source=client&utm_medium=nelsonk">DESIGNED BY IMAN</a></span></li>
             </ul>
+
+
         </div>
     </footer>
 )
