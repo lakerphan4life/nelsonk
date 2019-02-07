@@ -11,7 +11,7 @@ const Automation = (props) => (
         <Helmet
 			title="Automation Services - Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest"
 			meta={[
-				{ name: 'description', content: 'Automation services provided by Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' },
+				{ name: 'description', content: 'Automation services provided by Nelson K Enterprise, the premier MSP and IT Management company in the Pacific Northwest' },
 				{ name: 'robots', content: 'all' },
 				{ name: 'og:site_name', content: 'Nelson K Enterprise' },
 				{ name: 'og:description', content: 'Automation services provided by Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' },
