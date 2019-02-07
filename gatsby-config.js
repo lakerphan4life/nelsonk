@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Nelson K Enterprise | IT Management",
+    title: "Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest",
     author: "Iman Hamidi",
-    description: "Nelson K Enterprise is the premier IT Management firm"
+    description: "Nelson K Enterprise is the premier MSP and IT Management company in the Pacific Northwest"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -20,14 +20,14 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
-    // {
-    //   resolve: 'gatsby-plugin-robots-txt',
-    //   options: {
-    //     host: 'https://www.nelsonkenterprise.com',
-    //     sitemap: 'https://www.nelsonkenterprise.com/sitemap.xml',
-    //     policy: [{ userAgent: '*', allow: '/' }]
-    //   }
-    // },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.nelsonkenterprise.com',
+        sitemap: 'https://www.nelsonkenterprise.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
     // {
     //   resolve: `gatsby-plugin-canonical-urls`,
     //   options: {
@@ -47,6 +47,26 @@ module.exports = {
           families: ['Lato', 'Raleway']
         }
       }
+    },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Lato`
+          },
+          {
+            family: `Raleway`
+          },
+        ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-131332502-3",
+        head: false,
+      }
     }
-  ],
+  ]
 }

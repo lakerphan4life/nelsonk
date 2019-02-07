@@ -49,7 +49,7 @@ const About = (props) => (
 									<li>TCPA requirements</li>
 								</ul>
 							</li>
-							<li>This type of management has directly transferred over to his current business and is described in the culture of Nelson K Enterprise LLC.  As managing multiple corporations.</li>
+							<li>This type of management has directly transferred over to his current business and is described in the culture of Nelson K Enterprise LLC, managing multiple corporations.</li>
 							<li>Managed Dental clients that directly related to additional relevance with on-going training and testing as a unique standard to that specific group along with client policies that are based off HIPAA compliance and documentation, to provide evidence of application that discoveries and employee violations were rectified and followed up on utilizing our remediation process, which was proven successful.</li>
 							<li>ISO certifications, including agent and manager training on the importance of documentation with ISO and how to implement remediation pertaining to non-conformities.</li>
 							<li>A thorough understanding of PCI compliance and policies included to what it takes to pass audits from given fortune 500 and fortune 100 clients.</li>

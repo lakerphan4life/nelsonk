@@ -32,7 +32,7 @@ const Automation = (props) => (
             <section id="one">
                 <div className="inner">
 					<p className="text-center" style={{padding: `2em 0`}}>Utilizing an array of system wide reports allows us to provide on-going recommendations that support innovation, change, through continuity with business strategy that equate to future success.   Up to date applications with scripted device management and monitoring.
-With our network monitoring that allows us to see all devices, this allows us to identify any risk and use security alerts that generate automated tickets and start the resolution process to fix the issue.  This is commonly utilized and appreciated by companies that come in to find issues that occurred over the weekend and start their Monday with an I.T crisis on their hands.  We perform 24-hour, 7-day a week monitoring which is one of the key elements that our clients appreciate.
+With our network monitoring that allows us to see all devices, this allows us to identify any risk and use security alerts that generate automated tickets and start the resolution process to fix the issue. This is commonly utilized and appreciated by companies that come in to find that any issues that occurred over the weekend have already been remediated, starting their Monday without I.T crisis on their hands.  We perform 24-hour, 7-day a week monitoring which is one of the key elements that our clients appreciate.
 </p>
 
 					<h2>What to expect from our Automation service</h2>
