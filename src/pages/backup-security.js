@@ -13,10 +13,25 @@ import banner from '../assets/images/servers1760x990.png'
 
 const BackupSecurity = (props) => (
     <Layout>
-        <Helmet>
-            <title>Backup &amp; Security Solutions - Nelson K Enterprise</title>
-            <meta name="description" content="Backup &amp; Security Solutions offered by Nelson K Enterprise" />
-        </Helmet>
+        <Helmet
+			title="Backup and Security Hardware Solutions - Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest"
+			meta={[
+				{ name: 'description', content: 'Backup and Security Hardware Solutions provided by Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' },
+				{ name: 'robots', content: 'all' },
+				{ name: 'og:site_name', content: 'Nelson K Enterprise' },
+				{ name: 'og:description', content: 'Backup and Security Hardware Solutions provided by Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' },
+				{ name: 'og:title', content: 'Backup and Security Hardware Solutions - Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest' },
+				{ name: 'og:url', content: 'https://www.nelsonkenterprise.com/backup-security' },
+				{ name: 'og:type', content: 'website' },
+				{ name: 'twitter:card', content: 'summary' },
+				{ name: 'twitter:title', content: 'Backup and Security Hardware Solutions - Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest' },
+				{ name: 'twitter:description', content: 'Backup and Security Hardware Solutions provided by Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' }
+			]}
+			link= {[
+				{ rel: 'canonical', href:'https://www.nelsonkenterprise.com/backup-security' }
+			]}
+		>
+		</Helmet>
 
 
         <div id="main" style={{background: `#ffffff !important`}}>

@@ -20,9 +20,21 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Nelson K Enterprise | The premier IT Management firm in the Northwest"
+                    title="Nelson K Enterprise | The premier MSP and IT Management company in the Pacific Northwest"
                     meta={[
-                        { name: 'description', content: 'Nelson K Enterprise is the premier IT Management firm in the Northwest' },
+                        { name: 'description', content: 'Nelson K Enterprise is the premier MSP and IT Management firm in the Pacific Northwest' },
+                        { name: 'robots', content: 'all' },
+                        { name: 'og:site_name', content: 'Nelson K Enterprise' },
+                        { name: 'og:description', content: 'Nelson K Enterprise is the premier MSP and IT Management firm in the Pacific Northwest' },
+                        { name: 'og:title', content: 'Nelson K Enterprise | The premier MSP and IT Management company in the Pacific Northwest' },
+                        { name: 'og:url', content: 'https://www.nelsonkenterprise.com/' },
+                        { name: 'og:type', content: 'website' },
+                        { name: 'twitter:card', content: 'summary' },
+                        { name: 'twitter:title', content: 'Nelson K Enterprise | The premier MSP and IT Management company in the Pacific Northwest' },
+                        { name: 'twitter:description', content: 'Nelson K Enterprise is the premier MSP and IT Management firm in the Pacific Northwest' }
+                    ]}
+                    link= {[
+                        {rel: 'canonical', href:'https://www.nelsonkenterprise.com/' }
                     ]}
                 >
                 </Helmet>
@@ -31,8 +43,6 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <HomeIntro />
-
-
 
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic02})`}}>

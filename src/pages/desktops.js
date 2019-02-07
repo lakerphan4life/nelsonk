@@ -17,9 +17,24 @@ import banner from '../assets/images/Optiplex5.png'
 
 const Desktops = (props) => (
     <Layout>
-        <Helmet>
-            <title>Desktops - Nelson K Enterprise</title>
-            <meta name="description" content="Desktops offered by Nelson K Enterprise" />
+        <Helmet
+			title="Desktop Solutions - Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest"
+			meta={[
+				{ name: 'description', content: 'Desktops from Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' },
+				{ name: 'robots', content: 'all' },
+				{ name: 'og:site_name', content: 'Nelson K Enterprise' },
+				{ name: 'og:description', content: 'Desktops from Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' },
+				{ name: 'og:title', content: 'Desktop Solutions - Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest' },
+				{ name: 'og:url', content: 'https://www.nelsonkenterprise.com/desktops' },
+				{ name: 'og:type', content: 'website' },
+				{ name: 'twitter:card', content: 'summary' },
+				{ name: 'twitter:title', content: 'Desktop Solutions - Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest' },
+				{ name: 'twitter:description', content: 'Desktops from Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' }
+			]}
+			link= {[
+				{ rel: 'canonical', href:'https://www.nelsonkenterprise.com/desktops' }
+			]}
+		>
         </Helmet>
 
 

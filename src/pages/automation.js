@@ -8,9 +8,24 @@ import HomeThinSection from '../components/HomeThinSection';
 
 const Automation = (props) => (
     <Layout>
-        <Helmet>
-            <title>Automation Services - Nelson K Enterprise</title>
-            <meta name="description" content="Automation Services by Nelson K Enterprise" />
+        <Helmet
+			title="Automation Services - Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest"
+			meta={[
+				{ name: 'description', content: 'Automation services provided by Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' },
+				{ name: 'robots', content: 'all' },
+				{ name: 'og:site_name', content: 'Nelson K Enterprise' },
+				{ name: 'og:description', content: 'Automation services provided by Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' },
+				{ name: 'og:title', content: 'Automation Services - Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest' },
+				{ name: 'og:url', content: 'https://www.nelsonkenterprise.com/automation' },
+				{ name: 'og:type', content: 'website' },
+				{ name: 'twitter:card', content: 'summary' },
+				{ name: 'twitter:title', content: 'Automation Services - Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest' },
+				{ name: 'twitter:description', content: 'Automation services provided by Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' }
+			]}
+			link= {[
+				{ rel: 'canonical', href:'https://www.nelsonkenterprise.com/automation' }
+			]}
+		>
         </Helmet>
 		<AutomationBanner />
         <div id="main" className="alt">

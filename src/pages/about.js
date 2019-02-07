@@ -6,10 +6,25 @@ import aboutimg from '../assets/images/aboutimg.jpg'
 
 const About = (props) => (
     <Layout>
-        <Helmet>
-            <title>About Us - Nelson K Enterprise</title>
-            <meta name="description" content="About Us - Nelson K Enterprise" />
-        </Helmet>
+        <Helmet
+			title="About Us - Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest"
+			meta={[
+				{ name: 'description', content: 'Learn about Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' },
+				{ name: 'robots', content: 'all' },
+				{ name: 'og:site_name', content: 'Nelson K Enterprise' },
+				{ name: 'og:description', content: 'Learn about Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' },
+				{ name: 'og:title', content: 'About Us - Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest' },
+				{ name: 'og:url', content: 'https://www.nelsonkenterprise.com/about' },
+				{ name: 'og:type', content: 'website' },
+				{ name: 'twitter:card', content: 'summary' },
+				{ name: 'twitter:title', content: 'About Us - Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest' },
+				{ name: 'twitter:description', content: 'Learn about Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' }
+			]}
+			link= {[
+				{ rel: 'canonical', href:'https://www.nelsonkenterprise.com/about' }
+			]}
+		>
+		</Helmet>
 
         <div id="main" className="alt">
             <section id="one">

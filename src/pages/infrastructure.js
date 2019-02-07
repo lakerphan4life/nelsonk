@@ -7,9 +7,24 @@ import HomeThinSection from '../components/HomeThinSection'
 
 const Infrastructure = (props) => (
     <Layout>
-        <Helmet>
-            <title>Infrastructure Services - Nelson K Enterprise</title>
-            <meta name="description" content="Infrastructure Services offered by Nelson K Enterprise" />
+        <Helmet
+			title="Infrastructure Solutions - Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest"
+			meta={[
+				{ name: 'description', content: 'Infrastructure Solutions offered by Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' },
+				{ name: 'robots', content: 'all' },
+				{ name: 'og:site_name', content: 'Nelson K Enterprise' },
+				{ name: 'og:description', content: 'Infrastructure Solutions offered by Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' },
+				{ name: 'og:title', content: 'Infrastructure Solutions - Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest' },
+				{ name: 'og:url', content: 'https://www.nelsonkenterprise.com/infrastructure' },
+				{ name: 'og:type', content: 'website' },
+				{ name: 'twitter:card', content: 'summary' },
+				{ name: 'twitter:title', content: 'Infrastructure Solutions - Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest' },
+				{ name: 'twitter:description', content: 'Infrastructure Solutions offered by Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' }
+			]}
+			link= {[
+				{ rel: 'canonical', href:'https://www.nelsonkenterprise.com/infrastructure' }
+			]}
+		>
         </Helmet>
 
         <InfrastructureBanner />

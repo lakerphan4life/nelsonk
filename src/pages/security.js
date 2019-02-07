@@ -8,9 +8,24 @@ import HomeThinSection from '../components/HomeThinSection';
 
 const Security = (props) => (
     <Layout>
-        <Helmet>
-            <title>Security &amp; Disaster Recovery - Nelson K Enterprise</title>
-            <meta name="description" content="Security &amp; Disaster Recovery Services by Nelson K Enterprise" />
+        <Helmet
+			title="Security and Disaster Relief Services - Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest"
+			meta={[
+				{ name: 'description', content: 'Security and Disaster Relief Services offered by Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' },
+				{ name: 'robots', content: 'all' },
+				{ name: 'og:site_name', content: 'Nelson K Enterprise' },
+				{ name: 'og:description', content: 'Security and Disaster Relief Services offered by Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' },
+				{ name: 'og:title', content: 'Security and Disaster Relief Services - Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest' },
+				{ name: 'og:url', content: 'https://www.nelsonkenterprise.com/security' },
+				{ name: 'og:type', content: 'website' },
+				{ name: 'twitter:card', content: 'summary' },
+				{ name: 'twitter:title', content: 'Security and Disaster Relief Services - Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest' },
+				{ name: 'twitter:description', content: 'Security and Disaster Relief Services offered by Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' }
+			]}
+			link= {[
+				{ rel: 'canonical', href:'https://www.nelsonkenterprise.com/security' }
+			]}
+		>
         </Helmet>
 		<SecurityBanner />
         <div id="main" className="alt">

@@ -8,9 +8,24 @@ import HomeThinSection from '../components/HomeThinSection'
 
 const Documentation = (props) => (
     <Layout>
-        <Helmet>
-            <title>Documentation  &amp; Business Process Services - Nelson K Enterprise</title>
-            <meta name="description" content="Documentation &amp; Business Process Services offered by Nelson K Enterprise" />
+        <Helmet
+			title="Documentation and Business Process Solutions - Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest"
+			meta={[
+				{ name: 'description', content: 'Documentation and Business Process Solutions from Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' },
+				{ name: 'robots', content: 'all' },
+				{ name: 'og:site_name', content: 'Nelson K Enterprise' },
+				{ name: 'og:description', content: 'Documentation and Business Process Solutions from Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' },
+				{ name: 'og:title', content: 'Documentation and Business Process Solutions - Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest' },
+				{ name: 'og:url', content: 'https://www.nelsonkenterprise.com/documentation' },
+				{ name: 'og:type', content: 'website' },
+				{ name: 'twitter:card', content: 'summary' },
+				{ name: 'twitter:title', content: 'Documentation and Business Process Solutions - Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest' },
+				{ name: 'twitter:description', content: 'Documentation and Business Process Solutions from Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' }
+			]}
+			link= {[
+				{ rel: 'canonical', href:'https://www.nelsonkenterprise.com/documentation' }
+			]}
+		>
         </Helmet>
 
         <DocumentationBanner />
