@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 import AutomationBanner from '../components/AutomationBanner'
 import HomeThinSection from '../components/HomeThinSection';
 
-
+import favicon from '../../public/icons/icon-48x48.png'
 
 const Automation = (props) => (
     <Layout>
@@ -23,7 +23,8 @@ const Automation = (props) => (
 				{ name: 'twitter:description', content: 'Automation services provided by Nelson K Enterprise, the premier MSP and IT Management firm in the Pacific Northwest' }
 			]}
 			link= {[
-				{ rel: 'canonical', href:'https://www.nelsonkenterprise.com/automation' }
+				{ rel: 'canonical', href:'https://www.nelsonkenterprise.com/automation' },
+				{ rel: 'icon', type: 'image/png', href: `${favicon}` }
 			]}
 		>
         </Helmet>
