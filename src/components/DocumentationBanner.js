@@ -4,7 +4,7 @@ import pic1 from '../assets/images/documentsearch.png'
 
 
 const DocumentationBanner = (props) => (
-    <section id="banner" className="style2" style={{ backgroundImage: `url(${pic1})`, backgroundPosition: `bottom`}}>
+    <section id="banner" className="style2" style={{ backgroundImage: `url(${pic1})`, backgroundPosition: `center`}}>
         <div className="inner">
             <header className="major">
                 <h1>Documentation &amp; Business Processes</h1>

@@ -20,7 +20,7 @@ const Contact = (props) => (
                         <textarea name="message" id="message" rows="6"></textarea>
                     </div>
                     <ul className="actions">
-                        <li><button type="submit" className="button dark-btn">Submit Message</button></li>
+                        <li><button type="submit" className="button dark-btn"><span style={{ fontFamily: `"Montserrat", Helvetica, sans-serif` }}>Submit Message</span></button></li>
                     </ul>
                 </form>
             </section>
