@@ -31,11 +31,13 @@ class HomeIndex extends React.Component {
                         { name: 'og:type', content: 'website' },
                         { name: 'twitter:card', content: 'summary' },
                         { name: 'twitter:title', content: 'Nelson K Enterprise | The premier MSP and IT Management company in the Pacific Northwest' },
-                        { name: 'twitter:description', content: 'Nelson K Enterprise is the premier MSP and IT Management firm in the Pacific Northwest' }
+                        { name: 'twitter:description', content: 'Nelson K Enterprise is the premier MSP and IT Management firm in the Pacific Northwest' },
+                        { name: 'google-site-verification', content: 'buiRdqmMF_ehwRyGspmQDYdRDqdbLb2B2pKkiBh-PWo' }
                     ]}
                     link= {[
                         {rel: 'canonical', href:'https://www.nelsonkenterprise.com/' }
                     ]}
+                    
                 >
                 </Helmet>
 
