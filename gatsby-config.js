@@ -2,10 +2,12 @@ module.exports = {
   siteMetadata: {
     title: "Nelson K Enterprise | MSP and IT Management company in the Pacific Northwest",
     author: "Iman Hamidi",
-    description: "Nelson K Enterprise is the premier MSP and IT Management company in the Pacific Northwest"
+    description: "Nelson K Enterprise is the premier MSP and IT Management company in the Pacific Northwest",
+    siteUrl: "https://www.nelsonkenterprise.com",
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
