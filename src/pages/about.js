@@ -42,11 +42,11 @@ const About = (props) => (
 							<li>Adapting to change, becoming one of the greatest assets, using innovative strategies that created industry leading tends in compliance and client satisfaction.  This included protecting their data and their consumers.  This minimized liabilities and increased opportunity utilizing effective documentation processes. </li>
 							<li>Calvin created what became evident that ongoing strategies and changes were constantly implemented to accommodate legal requirements pertaining to the following regulations:<br /><br />
 								<ul>
-									<li>HIPPA compliance</li>
-									<li>ISO requirements</li>
-									<li>PCI requirements</li>
-									<li>CFPB rulings</li>
-									<li>TCPA requirements</li>
+									<li>HIPPA 2 compliance</li>
+									<li>ISO compliance</li>
+									<li>PCI compliance</li>
+									<li>CFPB compliance</li>
+									<li>TCPA compliance</li>
 								</ul>
 							</li>
 							<li>This type of management has directly transferred over to his current business and is described in the culture of Nelson K Enterprise LLC, managing multiple corporations.</li>
